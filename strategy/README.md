@@ -28,3 +28,8 @@ Use `energokontur-ai` as the canonical repository for energy product/business re
 - [33-provider evidence map and revised positioning](energy-opportunity-scan/BELARUS_COMPETITOR_LANDSCAPE_2026-09-29.md)
 - [Machine-readable company registry](energy-opportunity-scan/COMPETITORS_BY_33.json)
 - IMPORTANT: audit→pilot→support, PDF→technical quote, tender RAG and AI layer over ERP/CRM already have publicly visible Belarus competitors; do not call these offers unique before checking scope and buyer WTP.
+
+## Expanded competitor intelligence (2026-09-29)
+- [Expanded 56-provider desk research, evidence grading and offer implications](energy-opportunity-scan/BELARUS_COMPETITOR_DEEP_DIVE_56_2026-09-29.md)
+- [Canonical 56-profile machine-readable register](energy-opportunity-scan/COMPETITORS_BY_56_2026-09-29.json)
+- First wave of 33 remains only as provenance. A directory's 61 tagged profiles and 1C's 10 ERP centres cannot be added naively to our 56.
