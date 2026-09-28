@@ -1,0 +1,4507 @@
+{
+  "generated_at": "2026-09-29",
+  "methodology": "independent fresh 300 + extension 200 after gap review",
+  "count": 500,
+  "records": [
+    {
+      "id": 1,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "AI-сводка состояния сети к началу смены",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 2,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "Автоматическое построение хронологии аварии из SCADA, звонков и журналов",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 3,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "Карта вероятного места повреждения по совокупности сигналов",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 4,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "Оптимизатор последовательности восстановления питания",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 5,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "Подсказчик безопасных вариантов перепитки нагрузки",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 6,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "Автоприоритизация аварий по числу и типу отключённых потребителей",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 7,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "Прогноз времени восстановления электроснабжения (ETR)",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 8,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "Детектор противоречивых команд и записей диспетчера",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 9,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "Контроль исполнения диспетчерских распоряжений",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 10,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "Автогенерация карточки технологического нарушения",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 11,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "Классификатор первопричин аварий с Pareto-анализом",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 12,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "Сценарный тренажёр массового отключения",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 13,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "Погодный nowcasting для оперативного штаба",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 14,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "Прогноз потребности в аварийных бригадах на сутки",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 15,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "Оптимизатор размещения аварийного запаса до шторма",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 16,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "Автоматический briefing для руководства при крупной аварии",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 17,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "Сводка незакрытых рисков при сдаче смены",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 18,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "Контроль рассинхронизации оперативной схемы и фактического состояния",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 19,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "Автоформирование post-mortem после инцидента",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 20,
+      "pass": "fresh_300",
+      "block_id": 1,
+      "block": "Оперативное управление и аварии",
+      "title": "Цифровой журнал решений оперативного штаба",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 21,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "Единый health score оборудования из дефектов, испытаний и ремонтов",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 22,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "Риск-ориентированный backlog ремонтов",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 23,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "Оптимизация годовой ремонтной программы по бюджету и риску",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 24,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "Предиктивная замена оборудования по остаточному ресурсу",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 25,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "Автоматическая критичность активов по последствиям отказа",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 26,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "Поиск хронически проблемных единиц оборудования",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 27,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "Рекомендации ремонтировать/менять/наблюдать по TCO",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 28,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "Автосбор истории жизни оборудования из разрозненных систем",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 29,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "Контроль пропущенных регламентных воздействий",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 30,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "Оптимизация окон ремонта по совместимости отключений",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 31,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "Планирование запасных частей под ремонтную программу",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 32,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "Прогноз аварийного расхода ЗИП",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 33,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "Мониторинг гарантий производителей оборудования",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 34,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "Автогенерация дефектной ведомости из осмотра",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 35,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "Оценка качества выполненного ремонта по последующей статистике",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 36,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "Сравнение ремонтных бригад по повторным дефектам",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 37,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "Цифровой паспорт актива с графом связанного оборудования",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 38,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "Поиск аналогов снятого с производства оборудования",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 39,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "AI-анализ причин повторных ремонтов",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 40,
+      "pass": "fresh_300",
+      "block_id": 2,
+      "block": "Управление активами и ТОиР",
+      "title": "Ремонтная программа с Monte Carlo оценкой риска отказов",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 41,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "Автоматический поиск повреждений изоляторов на фото ВЛ",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 42,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "Детектор коррозии металлоконструкций подстанций",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 43,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "Определение трещин и сколов опор по фото",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 44,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "Контроль провеса проводов по видео/лидару",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 45,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "Поиск деревьев в опасной зоне с прогнозом роста",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 46,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "Спутниковое выявление самовольной застройки охранных зон",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 47,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "Автосравнение состояния объекта между двумя облётами",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 48,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "Планировщик маршрута дрона по приоритету дефектов",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 49,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "AI-оценка качества расчистки просеки",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 50,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "Распознавание маркировки и шильдиков в полевых фото",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 51,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "Фотоинвентаризация оборудования подстанции",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 52,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "Термография: автоматическая нормализация по нагрузке и погоде",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 53,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "Распознавание утечек масла и следов перегрева",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 54,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "Видеоконтроль положения разъединителей без телесигнализации",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 55,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "AR-подсказки осмотрщику поверх камеры смартфона",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 56,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "Автопривязка полевого фото к объекту и координатам",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 57,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "Поиск дефектов кабельных сооружений на видео робота",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 58,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "Автоотчёт по облёту с картой дефектов",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 59,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "Оценка доступности подъезда к опоре по спутниковым снимкам",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 60,
+      "pass": "fresh_300",
+      "block_id": 3,
+      "block": "Дистанционные осмотры, дроны и компьютерное зрение",
+      "title": "Контроль строительства ЛЭП по периодическим аэрофотосъёмкам",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 61,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Автоматическое определение фактической топологии сети 0,4 кВ",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 62,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Идентификация фазы абонента по профилю напряжения",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 63,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Поиск перегруженных нулевых проводников",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 64,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Прогноз перегруза распределительных трансформаторов",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 65,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Карта низкого напряжения по данным умных счётчиков",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 66,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Автопоиск плохих контактных соединений по профилям напряжения",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 67,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Оценка технических потерь без ручной паспортизации сети",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 68,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Приоритизация реконструкции ТП 10/0,4 кВ",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 69,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Рекомендации по перераспределению фазной нагрузки",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 70,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Прогноз обратных потоков от распределённой генерации",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 71,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Детектор скрытых перегрузок по температуре и профилям нагрузки",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 72,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Автоматический расчёт hosting capacity на фидере",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 73,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Динамическое управление напряжением OLTC/регуляторами",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 74,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Оптимизация установки конденсаторных батарей в распределительной сети",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 75,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Поиск неучтённых ответвлений по энергетическому балансу",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 76,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Цифровая карта качества данных распределительной сети",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 77,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Приоритизация установки датчиков на фидерах",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 78,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Автокалибровка модели сети по AMI данным",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 79,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Симулятор подключения тепловых насосов/EV на улицу или микрорайон",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 80,
+      "pass": "fresh_300",
+      "block_id": 4,
+      "block": "Распределительные сети и низкое напряжение",
+      "title": "Прогноз числа жалоб на напряжение при росте нагрузки",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 81,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "Dynamic Line Rating как сервис для типовой ВЛ",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 82,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "Dynamic Transformer Rating для силовых трансформаторов",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 83,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "Оптимизатор topology reconfiguration для снятия перегрузок",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 84,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "Скрининг линий-кандидатов для DLR по погоде и загрузке",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 85,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "AI-прогноз динамического теплового резерва линии",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 86,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "Расчёт экономического эффекта DLR против реконструкции",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 87,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "Подбор участков для reconductoring по стоимости высвобожденного МВт",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 88,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "Оптимизатор phase-shifting transformer режимов",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 89,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "Decision support для advanced power-flow control",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 90,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "Автоматический поиск узких мест N-1",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 91,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "Карта скрытой пропускной способности сети по времени суток",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 92,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "Сценарии voltage uprating существующих линий",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 93,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "Dynamic Operating Envelope для крупных подключений",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 94,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "Non-firm connection calculator для новых потребителей",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 95,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "Storage-as-a-transmission-asset screening",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 96,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "Оптимизатор быстрых корректирующих действий при перегрузке",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 97,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "Выбор мест установки PMU для максимальной наблюдаемости",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 98,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "Прогноз congestion risk на неделю вперёд",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 99,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "Сравнение CAPEX сетевого усиления и гибких технологий",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 100,
+      "pass": "fresh_300",
+      "block_id": 5,
+      "block": "Пропускная способность сетей и Grid-Enhancing Technologies",
+      "title": "Портфель GETs по принципу стоимость/МВт высвобожденной мощности",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 101,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "AI-диагностика трансформатора по DGA + нагрузке + температуре",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 102,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "Онлайн thermal model трансформатора с прогнозом hot-spot",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 103,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "Раннее обнаружение дефекта РПН по моторному току",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 104,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "Прогноз ресурса вводов по диэлектрическим параметрам",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 105,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "Скоринг пожарного риска трансформатора",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 106,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "Мониторинг деградации масла с трендом и рекомендацией отбора проб",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 107,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "Автосводка состояния силового трансформатора для главного инженера",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 108,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "Диагностика выключателя по форме тока привода",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 109,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "Прогноз механического износа выключателя",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 110,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "Контроль состояния шинных соединений по распределённой температуре",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 111,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "Детектор аномалий собственных нужд подстанции",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 112,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "Автоматический контроль батареи оперативного тока",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 113,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "Поиск медленных деградаций в токах утечки ОПН",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 114,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "AI-анализ акустики трансформатора",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 115,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "Оптимизация графика обслуживания РПН",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 116,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "Цифровой twin подстанции для ремонтного planning",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 117,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "Автоинвентаризация схем собственных нужд",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 118,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "Контроль состояния заземляющего устройства по истории измерений",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 119,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "Прогноз потребности в мобильной подстанции/трансформаторе",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 120,
+      "pass": "fresh_300",
+      "block_id": 6,
+      "block": "Подстанции и трансформаторы",
+      "title": "Подбор retrofit-сенсоров при модернизации старой подстанции",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 121,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "AI-анализ корректности срабатывания РЗА по событиям",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 122,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "Автопроверка координации уставок после изменения схемы",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 123,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "Граф зависимостей уставок и защищаемого оборудования",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 124,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "Контроль рассинхронизации настроек терминала и базы уставок",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 125,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "Автотест GOOSE-сообщений IEC 61850",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 126,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "Контроль качества SCL/SCD engineering",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 127,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "Автоформирование test plan для цифровой подстанции",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 128,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "Детектор необычной последовательности событий в SOE",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 129,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "Поиск ложных/дрожащих сигналов телемеханики",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 130,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "Автоматическое сопоставление сигналов SCADA с первичным оборудованием",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 131,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "Проверка резервирования каналов связи РЗА",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 132,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "Контроль firmware и совместимости терминалов",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 133,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "Автосбор резервных копий конфигураций с проверкой целостности",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 134,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "Риск-анализ изменения уставок перед вводом",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 135,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "Симулятор отказа канала/терминала для проверки схем автоматики",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 136,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "AI-помощник по эксплуатационной документации конкретного терминала",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 137,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "Автопротоколирование проверки защит",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 138,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "Цифровой реестр test equipment для РЗА",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 139,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "Поиск единичных точек отказа в цепях вторичной коммутации",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 140,
+      "pass": "fresh_300",
+      "block_id": 7,
+      "block": "РЗА, автоматика, IEC 61850 и OT",
+      "title": "Impact analysis изменения первичной схемы на РЗА и телемеханику",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 141,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "AI-восстановление пропусков интервальных данных учёта",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 142,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "Детектор перепутанных коэффициентов трансформации",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 143,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "Автопоиск неправильной полярности ТТ/ТН по профилям",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 144,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "Скоринг вероятности вмешательства в счётчик",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 145,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "Кластеризация нетехнических потерь по районам",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 146,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "Приоритизация выездных проверок по ожидаемому возврату",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 147,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "Баланс электроэнергии до уровня фидера/ТП в реальном времени",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 148,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "Автоматический поиск рассинхронизации времени приборов учёта",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 149,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "Контроль деградации каналов связи AMI",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 150,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "Прогноз объёма небаланса на конец месяца",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 151,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "Power Quality event classifier для провалов/гармоник/фликера",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 152,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "Поиск вероятного источника гармоник по сети",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 153,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "Автоматическое расследование провала напряжения",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 154,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "Карта качества электроэнергии для промышленного предприятия",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 155,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "AI-отчёт по претензии на качество электроэнергии",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 156,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "Оценка ущерба оборудования от плохого качества питания",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 157,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "Рекомендации по фильтрам гармоник и компенсации реактивной мощности",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 158,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "Контроль договорных лимитов мощности в реальном времени",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 159,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "Прогноз максимума мощности на расчётный период",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 160,
+      "pass": "fresh_300",
+      "block_id": 8,
+      "block": "Учёт, потери и качество электроэнергии",
+      "title": "Автосверка коммерческого и технического учёта",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 161,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "Hosting Capacity Map для новых нагрузок и генерации",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 162,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "Автоскрининг заявки на технологическое присоединение",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 163,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "Поиск минимальной стоимости точки присоединения",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 164,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "Сценарное сравнение вариантов усиления сети",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 165,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "AI-проверка полноты исходных данных на присоединение",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 166,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "Прогноз очереди на присоединение и сроков реализации",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 167,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "Скоринг зрелости проекта в очереди на подключение",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 168,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "Автопоиск «мертвых» заявок, удерживающих мощность",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 169,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "Non-firm connection offer generator",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 170,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "Симуляция подключения дата-центра к региональной сети",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 171,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "Планирование под EV-хабы и электробусы",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 172,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "Прогноз нагрузки новых жилых районов по данным застройки",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 173,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "Автоматический forecast нагрузки по участкам сети на 5–10 лет",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 174,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "Оптимизация сетевых инвестиций при нескольких сценариях спроса",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 175,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "GeoAI-поиск коридоров для новых линий",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 176,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "Автооценка ограничений земель/охранных зон для трассы",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 177,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "Скрининг вариантов новой подстанции по NPV и надёжности",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 178,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "Генератор инвестиционного обоснования сетевого проекта",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 179,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "Прогноз дефицита трансформаторной мощности по районам",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 180,
+      "pass": "fresh_300",
+      "block_id": 9,
+      "block": "Планирование сети, техприсоединение и capacity planning",
+      "title": "Портфель проектов реконструкции по benefit/cost/risk",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 181,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "DERMS-lite для промышленного парка",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 182,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "Оптимизатор заряда BESS по тарифу и ограничениям сети",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 183,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "Battery degradation-aware dispatch",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 184,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "Рынок гибкости внутри промышленной площадки",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 185,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "Автоматический demand response для компрессоров/холода/HVAC",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 186,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "Прогноз доступной гибкости предприятия на сутки",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 187,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "Платформа агрегатора управляемой нагрузки",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 188,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "Smart charging автопарка с ограничением по вводу",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 189,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "V2G scheduler для корпоративного автопарка",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 190,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "Dynamic charging limits по состоянию локальной сети",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 191,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "Оптимизатор солнечная генерация + BESS + сеть",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 192,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "Микросеть для критического объекта с islanding simulation",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 193,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "Grid-forming BESS feasibility calculator",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 194,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "Контроль SoH батарей нескольких производителей",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 195,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "AI-диагностика деградации батарей по telemetry",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 196,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "Оптимизация размера накопителя под конкретный load profile",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 197,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "Автоматическая торговая стратегия накопителя при наличии рынка",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 198,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "Flexibility contract calculator для крупного потребителя",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 199,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "Управление ограничением пиковой мощности кампуса/завода",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 200,
+      "pass": "fresh_300",
+      "block_id": 10,
+      "block": "Гибкость, DER, BESS, EV и микросети",
+      "title": "Цифровой паспорт гибкости объекта",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 201,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "AI-баланс электроэнергии по цехам и технологическим линиям",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 202,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "Автоматическое выявление аномального энергопотребления оборудования",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 203,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "Энергоинтенсивность на единицу продукции в реальном времени",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 204,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "Прогноз энергоёмкости производственного плана",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 205,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "Оптимизация графика энергоёмких операций по тарифу/лимиту",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 206,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "Система контроля пиковых нагрузок без остановки производства",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 207,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "Предиктивный анализ провалов напряжения для чувствительных линий",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 208,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "Карта критичных нагрузок предприятия",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 209,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "Сценарии отказа вводов и АВР с оценкой потерь производства",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 210,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "Оптимизация ДГУ/ИБП/BESS для критической нагрузки",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 211,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "Автоматический план испытаний резервного питания",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 212,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "Контроль качества переключений на резерв",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 213,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "Поиск невидимых базовых нагрузок ночью/в выходные",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 214,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "AI-рекомендации по компенсации реактивной мощности",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 215,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "План модернизации электродвигателей по TCO",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 216,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "Оптимизация работы трансформаторов предприятия по потерям",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 217,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "Энергетический digital twin производственного участка",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 218,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "Мониторинг договорной мощности и штрафных рисков",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 219,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "Measurement & Verification экономии после энергоэффективного проекта",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 220,
+      "pass": "fresh_300",
+      "block_id": 11,
+      "block": "Промышленный энергоменеджмент и надёжность электроснабжения",
+      "title": "Energy-as-a-Service dashboard для промышленного клиента",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 221,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "Compliance cockpit по ТКП/локальным требованиям предприятия",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 222,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "Автогенерация годового плана работ электрохозяйства",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 223,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "Контроль сроков ЭФИ, проверок знаний, СИЗ и ТО в одном календаре",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 224,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "QR-паспорт каждого щита/РУ/электроприёмника",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 225,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "Мобильный маршрут осмотра с обязательной фотофиксацией",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 226,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "Автопроверка заполнения оперативных и эксплуатационных журналов",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 227,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "AI-поиск несоответствий в приказах и инструкциях",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 228,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "Генератор актуализации локальных инструкций после изменения нормы",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 229,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "Реестр однолинейных схем с контролем версии",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 230,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "Сверка фактического щита с однолинейной схемой по фото",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 231,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "Планировщик отключений для профилактических работ",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 232,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "Проверка готовности объекта к надзорной проверке",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 233,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "Автопакет документов для назначения ответственного",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 234,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "Кабинет аутсорсера электрохозяйства на десятки клиентов",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 235,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "Risk score объекта по просроченным мероприятиям",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 236,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "AI-черновик предписания после внутреннего аудита",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 237,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "Контроль исполнения корректирующих мероприятий",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 238,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "Ежемесячный health report собственнику объекта",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 239,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "Смета обязательных работ на следующий год",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 240,
+      "pass": "fresh_300",
+      "block_id": 12,
+      "block": "Эксплуатация электрохозяйства потребителей",
+      "title": "Автоподготовка evidence pack к проверке/аудиту",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 241,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "Полевой планшет ЭТЛ с offline-first вводом измерений",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 242,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "Автозагрузка результатов с измерительных приборов",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 243,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "Цифровой test plan по типу электроустановки",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 244,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "Автопроверка допустимости результата сразу на объекте",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 245,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "Контроль единиц измерения и коэффициентов в протоколах",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 246,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "AI-проверка логической согласованности протоколов",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 247,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "Автосбор технического отчёта из набора испытаний",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 248,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "График повторных испытаний по объектам клиентов",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 249,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "Предиктивные напоминания клиенту до истечения срока испытаний",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 250,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "Маршрутизация выездов лаборатории по географии и оборудованию",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 251,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "Реестр калибровки/поверки приборов с блокировкой просроченных",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 252,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "Электронная цепочка custody измерительных файлов",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 253,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "Автосопоставление измерений с оборудованием по QR",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 254,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "Сравнение текущих и предыдущих результатов испытаний",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 255,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "Trend detection деградации изоляции по годам",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 256,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "AI-объяснение аномального результата инженеру",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 257,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "Автогенерация перечня недоделок ПНР",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 258,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "Commissioning checklist из проекта и паспортов оборудования",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 259,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "Punch-list с фото и ответственными при ПНР",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 260,
+      "pass": "fresh_300",
+      "block_id": 13,
+      "block": "ЭТЛ, испытания и пусконаладка",
+      "title": "Цифровой dossier ввода электроустановки в эксплуатацию",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 261,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "AI-проверка исходных данных перед началом проектирования",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 262,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "Автогенерация load schedule из технологического задания",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 263,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "Расчёт нескольких вариантов схемы электроснабжения с TCO",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 264,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "Автоподбор трансформаторов по сценариям роста нагрузки",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 265,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "Массовый расчёт кабелей с ограничениями прокладки",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 266,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "Автопроверка селективности в проекте",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 267,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "Генерация однолинейной схемы из структурированной модели",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 268,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "BIM-проверка коллизий кабельных трасс с другими системами",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 269,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "AI-выявление недостающих элементов на электрической модели BIM",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 270,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "Автогенерация кабельного журнала из BIM",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 271,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "Автоподсчёт длин кабеля по маршрутам BIM",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 272,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "4D-модель последовательности электромонтажа",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 273,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "Контроль ревизий проекта и impact analysis по смежным разделам",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 274,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "AI-нормоконтроль с точной ссылкой на источник",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 275,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "Автопроверка ТУ против проектных решений",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 276,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "RFI-generator по противоречиям проекта",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 277,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "Value engineering: альтернативы оборудования без ухудшения требований",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 278,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "Сравнение проектных вариантов по CAPEX/OPEX/потерям",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 279,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "AI-черновик пояснительной записки из расчётов",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 280,
+      "pass": "fresh_300",
+      "block_id": 14,
+      "block": "Проектирование, BIM, CAD и инженерные расчёты",
+      "title": "Design QA dashboard по типам повторяющихся ошибок",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 281,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "Digital work package для электромонтажной бригады",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 282,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "Автодекомпозиция проекта в фронты работ",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 283,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "Генерация недельно-суточного задания из графика",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 284,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "Контроль фактического прогресса по фото против BIM/плана",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 285,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "Автоподсчёт завершённых объёмов из полевых данных",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 286,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "AI-сводка причин отставания по объекту",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 287,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "Прогноз критического пути на 2–4 недели",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 288,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "Автогенерация RFI из голосовой заметки прораба",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 289,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "Field-to-office: фото/голос → задача/акт/заявка на материал",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 290,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "Автокомплектация исполнительной документации по виду работ",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 291,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "Проверка комплектности ИД до передачи заказчику",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 292,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "Redline-to-as-built: перенос полевых изменений в исполнительную схему",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 293,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "AI-сверка исполнительной схемы с последней ревизией проекта",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 294,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "Автопривязка сертификатов/паспортов к смонтированному оборудованию",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 295,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "Матрица скрытых работ с предупреждением до закрытия конструкций",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 296,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "Контроль подписания актов по цепочке участников",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 297,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "Цифровой punch-list сдачи электроустановки",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 298,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "AI-проверка качества фотофиксации скрытых работ",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 299,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "Автопакет документов на ввод/допуск объекта",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 300,
+      "pass": "fresh_300",
+      "block_id": 15,
+      "block": "Строительство, ПТО и исполнительная документация",
+      "title": "Гарантийный цифровой двойник объекта после сдачи",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 301,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "AI-квалификация тендера по технической реализуемости и марже",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 302,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "Скоринг вероятности участия/победы до расчёта сметы",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 303,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "Автокарта требований тендера с ответственными",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 304,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "Поиск скрытых коммерческих рисков в договоре закупки",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 305,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "AI-сравнение ТЗ тендера с компетенциями компании",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 306,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "Рекомендация bid/no-bid с объяснением",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 307,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "Автосбор clarification questions заказчику",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 308,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "Генератор технической части тендерного предложения",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 309,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "Проверка заявки на полноту перед отправкой",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 310,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "База проигранных тендеров с анализом причин",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 311,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "Win-loss intelligence по конкурентам и ценам",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 312,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "Мониторинг будущих объектов по разрешениям/инвестпрограммам",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 313,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "Trigger-based CRM: изменение проекта → повод для контакта",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 314,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "AI-account plan по крупному промышленному заказчику",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 315,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "Рекомендатор следующего шага продавцу по сделке",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 316,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "Калькулятор ожидаемой маржи с вероятностью допработ",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 317,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "Автоподготовка технического pre-sales brief инженеру",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 318,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "RFP-to-solution: из ТЗ в концепцию решения",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 319,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "Proposal configurator из повторяемых модулей",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 320,
+      "pass": "extension_200",
+      "block_id": 16,
+      "block": "Продажи, тендеры и CRM",
+      "title": "Post-sale expansion radar по установленному оборудованию клиента",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 321,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "AI-нормализация спецификаций разных производителей",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 322,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "Автопоиск дефицитных позиций в BOM",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 323,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "Прогноз lead time критичного оборудования",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 324,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "Supplier risk score по срокам, качеству и зависимости от страны",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 325,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "Подбор эквивалентов с evidence по техническим параметрам",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 326,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "Автопроверка сертификатов и сроков их действия",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 327,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "Сравнение total landed cost поставщиков",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 328,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "Контроль валютного риска по длинным поставкам",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 329,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "Прогноз дефицита кабеля/автоматики по pipeline проектов",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 330,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "Автосоздание RFQ нескольким поставщикам",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 331,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "AI-сверка ответов поставщиков с ТЗ",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 332,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "Оптимизация заказа кабеля по барабанам между объектами",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 333,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "Кросс-проектный marketplace неликвидов компании",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 334,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "Serial number tracking оборудования от поставки до монтажа",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 335,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "Фото-приёмка оборудования с распознаванием повреждений",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 336,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "Автоформирование входного контроля из паспорта изделия",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 337,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "Конфигуратор НКУ/щита с BOM и себестоимостью",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 338,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "Оптимизация раскроя шин и кабель-каналов в щитовом производстве",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 339,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "Цифровая маршрутная карта сборки щита",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 340,
+      "pass": "extension_200",
+      "block_id": 17,
+      "block": "Снабжение, цепочки поставок и производство электрооборудования",
+      "title": "Remote FAT с автоматической фиксацией результатов испытаний",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 341,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "Dynamic competency matrix для допуска к конкретной работе",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 342,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "Автоблокировка назначения сотрудника без нужного допуска",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 343,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "AI-конструктор целевого инструктажа под конкретную задачу",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 344,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "Микрообучение после выявленного нарушения",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 345,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "Персональный тренажёр по ошибкам сотрудника",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 346,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "Сценарные тренировки по аварийным ситуациям с AI-инструктором",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 347,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "Simulated switching coach без доступа к реальному управлению",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 348,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "Контроль усталости/переработок в графике бригад",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 349,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "Risk-based план поведенческих аудитов безопасности",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 350,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "Near-miss intelligence: анализ почти-происшествий",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 351,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "Автоанонимизация сообщений о небезопасных условиях",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 352,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "Карта повторяющихся опасностей по объектам",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 353,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "AI-проверка JSA/JHA перед работой",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 354,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "Permit-to-work conflict detector между бригадами",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 355,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "Контроль simultaneous operations на одном объекте",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 356,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "План спасения/эвакуации под конкретную работу",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 357,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "AR-проверка зоны работ перед допуском",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 358,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "Видеоанализ критических шагов обучения без биометрической идентификации",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 359,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "Skill decay monitor для редко выполняемых операций",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 360,
+      "pass": "extension_200",
+      "block_id": 18,
+      "block": "Безопасность, персонал и обучение",
+      "title": "Knowledge succession plan для уходящих экспертов",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 361,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "Project margin at completion forecast",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 362,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "Прогноз кассового разрыва по каждому объекту",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 363,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "Earned Value dashboard для электромонтажного проекта",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 364,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "AI-раннее предупреждение о перерасходе сметы",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 365,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "Change-order detector из переписки и RFI",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 366,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "Автосбор доказательств для допработ",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 367,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "Калькулятор стоимости задержки заказчика",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 368,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "Claims assistant для претензионной работы",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 369,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "Контроль notice periods по договору",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 370,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "Автопроверка банковских гарантий и сроков",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 371,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "Прогноз удержаний/гарантийных платежей",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 372,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "Сверка закупок с бюджетом и фактом монтажа",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 373,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "AI-поиск двойной оплаты/дублирующих счетов",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 374,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "Автопроверка субподрядных актов по объёмам",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 375,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "Cost-to-complete forecast по объекту",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 376,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "Portfolio cash-flow по всем стройкам",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 377,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "Risk-adjusted bid margin calculator",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 378,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "Сценарии make/buy/subcontract для работ",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 379,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "Контроль рентабельности сервисных контрактов",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 380,
+      "pass": "extension_200",
+      "block_id": 19,
+      "block": "Финансы, договоры и управление проектами",
+      "title": "Автоподготовка monthly project review для собственника",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 381,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "Regulatory change radar по энергетике и строительству",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 382,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "Impact analysis нового НПА на локальные документы компании",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 383,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "Автосписок инструкций, которые нужно пересмотреть",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 384,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "Граф связей нормативов, стандартов и внутренних приказов",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 385,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "Версионный реестр требований с датами действия",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 386,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "AI-answer с обязательной ссылкой на пункт и редакцию",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 387,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "Conflict detector между внутренней инструкцией и новой нормой",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 388,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "Нормативный diff с классификацией значимости изменений",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 389,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "Контроль лицензий/прав на используемые нормативные тексты",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 390,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "Curator workflow для публикации новой редакции",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 391,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "Evidence pack для внутреннего аудита соответствия",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 392,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "Обучающий digest изменений только для затронутых ролей",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 393,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "FAQ, автоматически обновляемый после утверждения изменений",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 394,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "Поиск требований по типу оборудования/работы",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 395,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "Матрица «требование → процесс → документ → ответственный»",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 396,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "Compliance debt dashboard",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 397,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "AI-проверка шаблонов документов на устаревшие ссылки",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 398,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "Контроль локальных регламентов между филиалами",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 399,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "Semantic search по lessons learned проектов",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 400,
+      "pass": "extension_200",
+      "block_id": 20,
+      "block": "Нормативка, знания и управление изменениями",
+      "title": "Corporate engineering copilot на внутренних стандартах",
+      "implementation_hint": "LC/CODE",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 401,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "Автоинвентаризация OT-активов по сетевому трафику",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 402,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "Карта зависимостей PLC/IED/SCADA/серверов",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 403,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "Baseline нормального OT-трафика и поиск аномалий",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 404,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "Контроль несанкционированных изменений конфигураций IED",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 405,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "Firmware exposure tracker по оборудованию",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 406,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "SBOM-реестр для цифровых подстанций и OT-шлюзов",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 407,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "Supply-chain cyber risk score для энергетического оборудования",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 408,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "Автопроверка удалённого доступа подрядчиков",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 409,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "JIT-доступ к OT с автоматическим отзывом",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 410,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "Сеансовая запись и summarization действий сервисного инженера",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 411,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "Контроль несогласованных USB/portable media операций",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 412,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "AI-triage OT-событий SOC без автоматического воздействия",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 413,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "Prompt-injection scanner для отраслевого RAG",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 414,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "Data lineage от измерения до управленческого отчёта",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 415,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "Quality score телеметрии по источникам",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 416,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "Model registry для AI-моделей энергетической компании",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 417,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "AI action ledger: кто/что/на основании чего предложил",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 418,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "Red-team тесты AI до допуска к OT-сценариям",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 419,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "Digital sandbox для проверки agentic AI на копии процессов",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 420,
+      "pass": "extension_200",
+      "block_id": 21,
+      "block": "OT-кибербезопасность, данные и AI-governance",
+      "title": "Policy engine: какие действия AI разрешены, требуют approval или запрещены",
+      "implementation_hint": "OT/CODE/AI",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 421,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "Climate risk score подстанций и линий на 10–20 лет",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 422,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "Flood exposure map энергетических объектов",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 423,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "Wildfire/пожарный risk map для ЛЭП и подстанций",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 424,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "Гололёдный risk forecast по пролётам",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 425,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "Heatwave derating прогноз трансформаторов и кабелей",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 426,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "Storm hardening prioritization по benefit/cost",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 427,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "Карта критических потребителей для восстановления после ЧС",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 428,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "Resilience microgrid planner для больниц/водоканалов/связи",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 429,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "Pre-positioning аварийных ресурсов перед экстремальной погодой",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 430,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "Прогноз доступности дорог для аварийных бригад",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 431,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "Satellite damage assessment после шторма",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 432,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "Автооценка ущерба после затопления оборудования",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 433,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "Resilience score цепочки поставок критичных компонентов",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 434,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "Сценарий длительного дефицита трансформаторов",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 435,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "Emergency spare sharing platform между организациями",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 436,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "План black-start критической площадки",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 437,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "Карта зависимости критической инфраструктуры от электроснабжения",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 438,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "Stress-test сетевых инвестпланов под климатические сценарии",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 439,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "Автоподготовка emergency playbook по типу угрозы",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 440,
+      "pass": "extension_200",
+      "block_id": 22,
+      "block": "Климатическая устойчивость и чрезвычайные ситуации",
+      "title": "Post-event resilience review с обновлением стандартов",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 441,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "Grid-readiness assessment площадки под дата-центр",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 442,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "AI-прогноз профиля нагрузки дата-центра по стадиям ввода",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 443,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "Capacity reservation optimizer для очереди дата-центров",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 444,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "Non-firm connection design для дата-центра",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 445,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "Гибридная схема grid+BESS+ДГУ для ограничения пиковой мощности",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 446,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "Оптимизация PUE с учётом ограничений энергосистемы",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 447,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "Workload shifting по сигналу дефицита мощности",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 448,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "Demand response controller дата-центра без нарушения SLA",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 449,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "Battery UPS fleet как ресурс гибкости",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 450,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "Вторичное использование тепла дата-центра: feasibility calculator",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 451,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "Power quality monitoring для AI-кластеров",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 452,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "Раннее обнаружение риска перегрузки шин/PDUs",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 453,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "Цифровой twin электроснабжения дата-центра",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 454,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "Автосценарии отказа N+1/N+2 питания",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 455,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "CAPEX comparison: новое сетевое усиление vs BESS/гибкость",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 456,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "Контроль энергопотребления AI-задач по tenant/project",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 457,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "Carbon/energy-aware AI job scheduler",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 458,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "Прогноз подключения крупных электролизёров/тепловых насосов",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 459,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "Энергетический pre-design для высокомощных зарядных хабов",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 460,
+      "pass": "extension_200",
+      "block_id": 23,
+      "block": "Дата-центры, AI-нагрузки и новые крупные потребители",
+      "title": "Large-load portfolio planner для региональной сети",
+      "implementation_hint": "CODE/AI/INTEGRATION",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 461,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "AI-Chief of Staff директора энергетической компании",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 462,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "Ежедневный operating brief из CRM, проектов, аварий и финансов",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 463,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "Meeting-to-actions с контролем исполнения",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 464,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "Agent для входящей почты с маршрутизацией по процессам",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 465,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "AI-диспетчер внутренних заявок между отделами",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 466,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "Project kickoff agent: договор → план → роли → риски → задачи",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 467,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "Procurement agent с human approval",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 468,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "Tender agent с bid/no-bid gate",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 469,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "Contract agent с контролем обязательств",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 470,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "Finance reconciliation agent для проектной компании",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 471,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "Knowledge curator agent для инженерной базы",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 472,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "Compliance agent с human publication gate",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 473,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "Field-report agent: фото/голос → структурированный отчёт",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 474,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "Service desk agent для оборудования клиентов",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 475,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "Customer success agent по сервисным контрактам",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 476,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "Management Q&A по данным компании с evidence",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 477,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "AI-аудитор качества данных CRM/ERP",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 478,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "AI-поиск процессов-кандидатов на автоматизацию",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 479,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "Process mining → автоматическое AS-IS draft",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 480,
+      "pass": "extension_200",
+      "block_id": 24,
+      "block": "AI-native управление энергетической/подрядной компанией",
+      "title": "ROI tracker: обещанный эффект → фактический эффект после внедрения",
+      "implementation_hint": "LC/AI/AGENTS",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 481,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "Transformer Health-as-a-Service",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 482,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "Power Quality-as-a-Service для промышленности",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 483,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "DLR-as-a-Service без продажи собственного железа",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 484,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "Remote Substation Monitoring-as-a-Service",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 485,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "Compliance-as-a-Service для электрохозяйства",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 486,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "Executive Documentation-as-a-Service для монтажников",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 487,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "Commissioning Documentation-as-a-Service для ЭТЛ/ПНР",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 488,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "Tender Intelligence-as-a-Service для электротехнических подрядчиков",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 489,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "Energy Flexibility-as-a-Service для промышленного потребителя",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 490,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "BESS Optimization-as-a-Service",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 491,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "Electrical Asset Passport managed service",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 492,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "OT Cyber Hygiene managed service для небольших предприятий",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 493,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "Engineering Knowledge managed service",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 494,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "Regulatory Change managed service",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 495,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "OEM scout для китайского электротехнического оборудования",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 496,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "EAEU certification workflow as a service",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 497,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "Retrofit sensor kit + monthly analytics",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": false
+    },
+    {
+      "id": 498,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "White-label AI кабинет для аутсорсера электрохозяйства",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 499,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "Shared AI back-office для 10–20 небольших ЭТЛ/монтажников",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": true
+    },
+    {
+      "id": 500,
+      "pass": "extension_200",
+      "block_id": 25,
+      "block": "Новые бизнес-модели, сервисы и продуктовые упаковки",
+      "title": "Outcome-based contract: оплата за подтверждённо высвобождённые часы/снижение потерь",
+      "implementation_hint": "SERVICE/PRODUCT",
+      "ai_or_advanced_analytics": false
+    }
+  ]
+}
