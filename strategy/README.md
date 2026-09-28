@@ -16,3 +16,10 @@
 
 ## Working rule
 Use `energokontur-ai` as the canonical repository for energy product/business research. Product implementation can remain in isolated branches/PRs; do not create another energy repository unless the product has materially different ownership/lifecycle.
+
+## Opportunity re-scan (2026-09-29)
+- [75 clusters from 800 source ideas](energy-opportunity-scan/CLUSTERS_75.md) and [traceable 800-to-75 mapping](energy-opportunity-scan/IDEA_TO_CLUSTER_800.json)
+- [20 practical buyer/process hypotheses](energy-opportunity-scan/SHORTLIST_20.md)
+- [Adjacent sectors: manufacturing, distribution, EPC, logistics, finance](energy-opportunity-scan/CROSS_VERTICAL_MARKET_SCAN.md)
+- [Financial stress test](energy-opportunity-scan/FINANCIAL_STRESS_TEST.md)
+- [90-day validation experiment](energy-opportunity-scan/DISCOVERY_90_DAYS.md)
