@@ -1,0 +1,1692 @@
+{
+  "schema": "2026-09-29-v1",
+  "summary": {
+    "source_records": 800,
+    "clusters": 75,
+    "source_v1": 300,
+    "source_v2": 500
+  },
+  "clusters": [
+    {
+      "cluster_id": "C01",
+      "domain_id": 1,
+      "domain": "Оперативные процессы и аварии",
+      "name": "Диспетчерский intelligence и разбор событий",
+      "v1_ids": [
+        1,
+        2,
+        5,
+        11,
+        12,
+        13
+      ],
+      "v2_ids": [
+        1,
+        2,
+        8,
+        10,
+        11,
+        16,
+        17,
+        19,
+        20
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 15
+    },
+    {
+      "cluster_id": "C02",
+      "domain_id": 1,
+      "domain": "Оперативные процессы и аварии",
+      "name": "Сценарии восстановления электроснабжения",
+      "v1_ids": [
+        3,
+        4,
+        7,
+        8,
+        10,
+        15
+      ],
+      "v2_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        18
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 12
+    },
+    {
+      "cluster_id": "C03",
+      "domain_id": 1,
+      "domain": "Оперативные процессы и аварии",
+      "name": "Штормовая готовность и аварийные ресурсы",
+      "v1_ids": [
+        6,
+        9,
+        14
+      ],
+      "v2_ids": [
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 8
+    },
+    {
+      "cluster_id": "C04",
+      "domain_id": 2,
+      "domain": "Управление активами и ТОиР",
+      "name": "Asset registry и единая история актива",
+      "v1_ids": [
+        16,
+        17,
+        18,
+        20,
+        26,
+        29,
+        30
+      ],
+      "v2_ids": [
+        21,
+        26,
+        27,
+        36,
+        37,
+        38
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 13
+    },
+    {
+      "cluster_id": "C05",
+      "domain_id": 2,
+      "domain": "Управление активами и ТОиР",
+      "name": "Risk-based maintenance и asset health",
+      "v1_ids": [
+        19,
+        21,
+        22,
+        23,
+        27,
+        28
+      ],
+      "v2_ids": [
+        22,
+        23,
+        24,
+        25,
+        28,
+        35,
+        39,
+        40
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 14
+    },
+    {
+      "cluster_id": "C06",
+      "domain_id": 2,
+      "domain": "Управление активами и ТОиР",
+      "name": "Планирование ремонтов, ресурсов и ЗИП",
+      "v1_ids": [
+        24,
+        25
+      ],
+      "v2_ids": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 8
+    },
+    {
+      "cluster_id": "C07",
+      "domain_id": 3,
+      "domain": "Визуальный контроль, дроны и геоданные",
+      "name": "AI-инспекция и обнаружение дефектов",
+      "v1_ids": [
+        46,
+        50,
+        51,
+        53,
+        56,
+        57,
+        60
+      ],
+      "v2_ids": [
+        41,
+        42,
+        43,
+        44,
+        53,
+        55
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 13
+    },
+    {
+      "cluster_id": "C08",
+      "domain_id": 3,
+      "domain": "Визуальный контроль, дроны и геоданные",
+      "name": "Геоаналитика и мониторинг линий/просек",
+      "v1_ids": [
+        47,
+        48,
+        49,
+        54,
+        55,
+        59
+      ],
+      "v2_ids": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        56,
+        58,
+        60
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 14
+    },
+    {
+      "cluster_id": "C09",
+      "domain_id": 3,
+      "domain": "Визуальный контроль, дроны и геоданные",
+      "name": "Полевые доказательства и инспекционный workflow",
+      "v1_ids": [
+        52,
+        58
+      ],
+      "v2_ids": [
+        50,
+        51,
+        52,
+        54,
+        57,
+        59
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 8
+    },
+    {
+      "cluster_id": "C10",
+      "domain_id": 4,
+      "domain": "Распределительные сети",
+      "name": "Наблюдаемость топологии и фазы",
+      "v1_ids": [],
+      "v2_ids": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        75,
+        76
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 8
+    },
+    {
+      "cluster_id": "C11",
+      "domain_id": 4,
+      "domain": "Распределительные сети",
+      "name": "Потери, напряжение и режимные оптимизации",
+      "v1_ids": [
+        84,
+        85,
+        89
+      ],
+      "v2_ids": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 11
+    },
+    {
+      "cluster_id": "C12",
+      "domain_id": 4,
+      "domain": "Распределительные сети",
+      "name": "Hosting capacity и развитие распределительной сети",
+      "v1_ids": [],
+      "v2_ids": [
+        77,
+        78,
+        79,
+        80
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 4
+    },
+    {
+      "cluster_id": "C13",
+      "domain_id": 5,
+      "domain": "Grid-Enhancing Technologies",
+      "name": "Динамические тепловые рейтинги DLR/DTR",
+      "v1_ids": [],
+      "v2_ids": [
+        81,
+        82,
+        84,
+        85,
+        91,
+        98
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 6
+    },
+    {
+      "cluster_id": "C14",
+      "domain_id": 5,
+      "domain": "Grid-Enhancing Technologies",
+      "name": "Оптимизация топологии и потокораспределения",
+      "v1_ids": [],
+      "v2_ids": [
+        83,
+        88,
+        89,
+        94,
+        96,
+        97
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 6
+    },
+    {
+      "cluster_id": "C15",
+      "domain_id": 5,
+      "domain": "Grid-Enhancing Technologies",
+      "name": "GETs portfolio: стоимость высвобождения МВт",
+      "v1_ids": [],
+      "v2_ids": [
+        86,
+        87,
+        90,
+        92,
+        93,
+        95,
+        99,
+        100
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 8
+    },
+    {
+      "cluster_id": "C16",
+      "domain_id": 6,
+      "domain": "Подстанции и диагностика оборудования",
+      "name": "Transformer health и ранняя диагностика",
+      "v1_ids": [
+        32,
+        37,
+        43
+      ],
+      "v2_ids": [
+        101,
+        102,
+        103,
+        105,
+        106,
+        114,
+        115
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 10
+    },
+    {
+      "cluster_id": "C17",
+      "domain_id": 6,
+      "domain": "Подстанции и диагностика оборудования",
+      "name": "Switchgear/substation reliability",
+      "v1_ids": [
+        34,
+        35,
+        38,
+        40,
+        41,
+        42
+      ],
+      "v2_ids": [
+        104,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        118
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 15
+    },
+    {
+      "cluster_id": "C18",
+      "domain_id": 6,
+      "domain": "Подстанции и диагностика оборудования",
+      "name": "Retrofit-сенсоры и эксплуатационная аналитика",
+      "v1_ids": [
+        31,
+        33,
+        36,
+        39,
+        44,
+        45
+      ],
+      "v2_ids": [
+        116,
+        117,
+        119,
+        120
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 10
+    },
+    {
+      "cluster_id": "C19",
+      "domain_id": 7,
+      "domain": "РЗА, IEC 61850 и телемеханика",
+      "name": "Governance уставок и конфигураций",
+      "v1_ids": [
+        63,
+        64,
+        65,
+        66,
+        72,
+        75
+      ],
+      "v2_ids": [
+        122,
+        123,
+        124,
+        132,
+        134
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 11
+    },
+    {
+      "cluster_id": "C20",
+      "domain_id": 7,
+      "domain": "РЗА, IEC 61850 и телемеханика",
+      "name": "Disturbance/SOE intelligence",
+      "v1_ids": [
+        61,
+        62,
+        69,
+        70,
+        71,
+        73
+      ],
+      "v2_ids": [
+        121,
+        128,
+        129,
+        130,
+        136,
+        139
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 12
+    },
+    {
+      "cluster_id": "C21",
+      "domain_id": 7,
+      "domain": "РЗА, IEC 61850 и телемеханика",
+      "name": "IEC 61850 validation, тесты и change impact",
+      "v1_ids": [
+        67,
+        68,
+        74
+      ],
+      "v2_ids": [
+        125,
+        126,
+        127,
+        131,
+        133,
+        135,
+        137,
+        138,
+        140
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 12
+    },
+    {
+      "cluster_id": "C22",
+      "domain_id": 8,
+      "domain": "Учёт, потери и качество энергии",
+      "name": "Revenue protection и энергетический баланс",
+      "v1_ids": [
+        76,
+        77,
+        78,
+        81,
+        82,
+        83,
+        87
+      ],
+      "v2_ids": [
+        142,
+        143,
+        144,
+        145,
+        146,
+        150,
+        151,
+        158,
+        160
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 16
+    },
+    {
+      "cluster_id": "C23",
+      "domain_id": 8,
+      "domain": "Учёт, потери и качество энергии",
+      "name": "Power Quality intelligence",
+      "v1_ids": [],
+      "v2_ids": [
+        152,
+        153,
+        154,
+        155,
+        156,
+        157
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 6
+    },
+    {
+      "cluster_id": "C24",
+      "domain_id": 8,
+      "domain": "Учёт, потери и качество энергии",
+      "name": "AMI data-quality и восстановление данных",
+      "v1_ids": [
+        79,
+        80,
+        86,
+        88,
+        90
+      ],
+      "v2_ids": [
+        141,
+        147,
+        148,
+        149,
+        159
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 10
+    },
+    {
+      "cluster_id": "C25",
+      "domain_id": 9,
+      "domain": "Подключения и развитие сети",
+      "name": "Автоматизация подключения и очереди",
+      "v1_ids": [
+        100,
+        101,
+        103,
+        104,
+        105
+      ],
+      "v2_ids": [
+        162,
+        163,
+        165,
+        166,
+        167,
+        168,
+        169
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 12
+    },
+    {
+      "cluster_id": "C26",
+      "domain_id": 9,
+      "domain": "Подключения и развитие сети",
+      "name": "Capacity planning и варианты усиления",
+      "v1_ids": [
+        97,
+        98,
+        99,
+        102
+      ],
+      "v2_ids": [
+        161,
+        164,
+        170,
+        171,
+        172,
+        173,
+        174,
+        179
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 12
+    },
+    {
+      "cluster_id": "C27",
+      "domain_id": 9,
+      "domain": "Подключения и развитие сети",
+      "name": "Инвестиционные программы и геообоснования",
+      "v1_ids": [],
+      "v2_ids": [
+        175,
+        176,
+        177,
+        178,
+        180
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 5
+    },
+    {
+      "cluster_id": "C28",
+      "domain_id": 10,
+      "domain": "Гибкость, DER, EV и BESS",
+      "name": "DERMS и demand response",
+      "v1_ids": [],
+      "v2_ids": [
+        181,
+        184,
+        185,
+        186,
+        187,
+        198
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 6
+    },
+    {
+      "cluster_id": "C29",
+      "domain_id": 10,
+      "domain": "Гибкость, DER, EV и BESS",
+      "name": "BESS/микросети и оптимизация ресурса",
+      "v1_ids": [
+        271,
+        272,
+        273,
+        274,
+        284
+      ],
+      "v2_ids": [
+        182,
+        183,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 14
+    },
+    {
+      "cluster_id": "C30",
+      "domain_id": 10,
+      "domain": "Гибкость, DER, EV и BESS",
+      "name": "EV/V2G и коммерческие механизмы гибкости",
+      "v1_ids": [
+        275,
+        276
+      ],
+      "v2_ids": [
+        188,
+        189,
+        197,
+        199,
+        200
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 7
+    },
+    {
+      "cluster_id": "C31",
+      "domain_id": 11,
+      "domain": "Энергоменеджмент промпредприятий",
+      "name": "Industrial energy intelligence",
+      "v1_ids": [
+        277,
+        278,
+        279,
+        280,
+        281,
+        285
+      ],
+      "v2_ids": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        213,
+        214,
+        215,
+        216
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 16
+    },
+    {
+      "cluster_id": "C32",
+      "domain_id": 11,
+      "domain": "Энергоменеджмент промпредприятий",
+      "name": "Надёжность питания критичного производства",
+      "v1_ids": [],
+      "v2_ids": [
+        207,
+        208,
+        209,
+        210,
+        211,
+        212
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 6
+    },
+    {
+      "cluster_id": "C33",
+      "domain_id": 11,
+      "domain": "Энергоменеджмент промпредприятий",
+      "name": "Энергоэффективность, M&V и Energy-as-a-Service",
+      "v1_ids": [
+        282,
+        283
+      ],
+      "v2_ids": [
+        217,
+        218,
+        219,
+        220
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 6
+    },
+    {
+      "cluster_id": "C34",
+      "domain_id": 12,
+      "domain": "Электрохозяйство потребителей",
+      "name": "Compliance и актуализация документов",
+      "v1_ids": [
+        107,
+        108,
+        109,
+        110,
+        113,
+        117
+      ],
+      "v2_ids": [
+        221,
+        222,
+        223,
+        226,
+        227,
+        228,
+        229,
+        232,
+        233,
+        236,
+        240
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 17
+    },
+    {
+      "cluster_id": "C35",
+      "domain_id": 12,
+      "domain": "Электрохозяйство потребителей",
+      "name": "Мобильные обходы, дефекты, выполнение работ",
+      "v1_ids": [
+        106,
+        114,
+        120
+      ],
+      "v2_ids": [
+        224,
+        225,
+        230,
+        231,
+        235,
+        237
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 9
+    },
+    {
+      "cluster_id": "C36",
+      "domain_id": 12,
+      "domain": "Электрохозяйство потребителей",
+      "name": "Multi-client кабинет аутсорсера электрохозяйства",
+      "v1_ids": [
+        111,
+        112,
+        115,
+        116,
+        118,
+        119
+      ],
+      "v2_ids": [
+        234,
+        238,
+        239
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 9
+    },
+    {
+      "cluster_id": "C37",
+      "domain_id": 13,
+      "domain": "ЭТЛ и пусконаладка",
+      "name": "Digital lab: измерения и протоколы",
+      "v1_ids": [
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        130
+      ],
+      "v2_ids": [
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 20
+    },
+    {
+      "cluster_id": "C38",
+      "domain_id": 13,
+      "domain": "ЭТЛ и пусконаладка",
+      "name": "Commissioning workflow и dossier",
+      "v1_ids": [
+        131,
+        132,
+        133
+      ],
+      "v2_ids": [
+        257,
+        258,
+        259,
+        260
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 7
+    },
+    {
+      "cluster_id": "C39",
+      "domain_id": 13,
+      "domain": "ЭТЛ и пусконаладка",
+      "name": "Клиентский сервис и повторные испытания",
+      "v1_ids": [
+        127,
+        128,
+        129,
+        134,
+        135
+      ],
+      "v2_ids": [
+        248,
+        249,
+        250
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 8
+    },
+    {
+      "cluster_id": "C40",
+      "domain_id": 14,
+      "domain": "Проектирование BIM/CAD",
+      "name": "Инженерные расчёты и подбор решений",
+      "v1_ids": [
+        136,
+        137,
+        138,
+        139,
+        140
+      ],
+      "v2_ids": [
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        278
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 13
+    },
+    {
+      "cluster_id": "C41",
+      "domain_id": 14,
+      "domain": "Проектирование BIM/CAD",
+      "name": "BIM/CAD и ведомости объёмов",
+      "v1_ids": [
+        141,
+        148,
+        150
+      ],
+      "v2_ids": [
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        277
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 10
+    },
+    {
+      "cluster_id": "C42",
+      "domain_id": 14,
+      "domain": "Проектирование BIM/CAD",
+      "name": "Design QA, ревизии и regulatory review",
+      "v1_ids": [
+        142,
+        143,
+        145,
+        146,
+        147,
+        149
+      ],
+      "v2_ids": [
+        274,
+        275,
+        276,
+        279,
+        280
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 11
+    },
+    {
+      "cluster_id": "C43",
+      "domain_id": 15,
+      "domain": "Строительство, ПТО и ИД",
+      "name": "Takeoff, сметно-закупочный контур",
+      "v1_ids": [
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        185,
+        189,
+        190,
+        204,
+        205
+      ],
+      "v2_ids": [
+        281,
+        282,
+        283,
+        285,
+        287,
+        290,
+        292
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 27
+    },
+    {
+      "cluster_id": "C44",
+      "domain_id": 15,
+      "domain": "Строительство, ПТО и ИД",
+      "name": "Полевое выполнение, качество и фактические объёмы",
+      "v1_ids": [
+        181,
+        182,
+        183,
+        184,
+        186,
+        187,
+        191,
+        192,
+        193,
+        194,
+        195,
+        200,
+        202,
+        203,
+        206
+      ],
+      "v2_ids": [
+        284,
+        286,
+        288,
+        289,
+        293,
+        295,
+        298
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 22
+    },
+    {
+      "cluster_id": "C45",
+      "domain_id": 15,
+      "domain": "Строительство, ПТО и ИД",
+      "name": "RFI, исполнительная документация и сдача",
+      "v1_ids": [
+        188,
+        196,
+        197,
+        198,
+        199,
+        201,
+        207,
+        208,
+        209,
+        210
+      ],
+      "v2_ids": [
+        291,
+        294,
+        296,
+        297,
+        299,
+        300
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 16
+    },
+    {
+      "cluster_id": "C46",
+      "domain_id": 16,
+      "domain": "Тендеры, техпродажи и CRM",
+      "name": "Tender qualification/bid-no-bid",
+      "v1_ids": [
+        166,
+        167,
+        168,
+        169,
+        179
+      ],
+      "v2_ids": [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 16
+    },
+    {
+      "cluster_id": "C47",
+      "domain_id": 16,
+      "domain": "Тендеры, техпродажи и CRM",
+      "name": "RFP → engineering offer/КП",
+      "v1_ids": [
+        171,
+        177,
+        178
+      ],
+      "v2_ids": [
+        317,
+        318,
+        319
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 6
+    },
+    {
+      "cluster_id": "C48",
+      "domain_id": 16,
+      "domain": "Тендеры, техпродажи и CRM",
+      "name": "Account intelligence и sales operations",
+      "v1_ids": [
+        170,
+        172,
+        173,
+        174,
+        175,
+        176,
+        180
+      ],
+      "v2_ids": [
+        312,
+        313,
+        314,
+        315,
+        316,
+        320
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 13
+    },
+    {
+      "cluster_id": "C49",
+      "domain_id": 17,
+      "domain": "Снабжение и производство оборудования",
+      "name": "Supplier intelligence и RFQ",
+      "v1_ids": [
+        212,
+        213,
+        214,
+        215,
+        216
+      ],
+      "v2_ids": [
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        330,
+        331,
+        336
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 15
+    },
+    {
+      "cluster_id": "C50",
+      "domain_id": 17,
+      "domain": "Снабжение и производство оборудования",
+      "name": "BOM, inventory, supply chain",
+      "v1_ids": [
+        211,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223
+      ],
+      "v2_ids": [
+        328,
+        329,
+        332,
+        333,
+        334,
+        335
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 14
+    },
+    {
+      "cluster_id": "C51",
+      "domain_id": 17,
+      "domain": "Снабжение и производство оборудования",
+      "name": "Щитовое производство и FAT",
+      "v1_ids": [
+        224,
+        225
+      ],
+      "v2_ids": [
+        337,
+        338,
+        339,
+        340
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 6
+    },
+    {
+      "cluster_id": "C52",
+      "domain_id": 18,
+      "domain": "Охрана труда и человеческий фактор",
+      "name": "Наряды, допуски и safety workflow",
+      "v1_ids": [
+        226,
+        227,
+        228,
+        230,
+        232,
+        234,
+        239,
+        241,
+        243,
+        244
+      ],
+      "v2_ids": [
+        341,
+        342,
+        343,
+        344,
+        353,
+        354,
+        355,
+        357
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 18
+    },
+    {
+      "cluster_id": "C53",
+      "domain_id": 18,
+      "domain": "Охрана труда и человеческий фактор",
+      "name": "Компетенции, тренировки и knowledge transfer",
+      "v1_ids": [
+        237,
+        242,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255
+      ],
+      "v2_ids": [
+        345,
+        346,
+        347,
+        358,
+        359,
+        360
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 19
+    },
+    {
+      "cluster_id": "C54",
+      "domain_id": 18,
+      "domain": "Охрана труда и человеческий фактор",
+      "name": "Предупреждение происшествий и усталости",
+      "v1_ids": [
+        229,
+        231,
+        233,
+        235,
+        236,
+        238,
+        240
+      ],
+      "v2_ids": [
+        348,
+        349,
+        350,
+        351,
+        352,
+        356
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 13
+    },
+    {
+      "cluster_id": "C55",
+      "domain_id": 19,
+      "domain": "Финансы, договоры и project control",
+      "name": "Project margin, EVM и cash-flow",
+      "v1_ids": [
+        256,
+        257,
+        258,
+        263,
+        266,
+        267,
+        268,
+        269
+      ],
+      "v2_ids": [
+        361,
+        362,
+        363,
+        364,
+        372,
+        375,
+        376,
+        377,
+        379
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 17
+    },
+    {
+      "cluster_id": "C56",
+      "domain_id": 19,
+      "domain": "Финансы, договоры и project control",
+      "name": "Change orders, claims и договорные обязательства",
+      "v1_ids": [
+        259,
+        260,
+        261,
+        262
+      ],
+      "v2_ids": [
+        365,
+        366,
+        367,
+        368,
+        369,
+        378
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 10
+    },
+    {
+      "cluster_id": "C57",
+      "domain_id": 19,
+      "domain": "Финансы, договоры и project control",
+      "name": "Финансовые операции, сверка и контроль ошибок",
+      "v1_ids": [
+        264,
+        265,
+        270
+      ],
+      "v2_ids": [
+        370,
+        371,
+        373,
+        374,
+        380
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 8
+    },
+    {
+      "cluster_id": "C58",
+      "domain_id": 20,
+      "domain": "Нормативка и корпоративные знания",
+      "name": "Verified engineering knowledge и RAG",
+      "v1_ids": [
+        286,
+        287
+      ],
+      "v2_ids": [
+        381,
+        384,
+        385,
+        386,
+        390,
+        393,
+        394,
+        399,
+        400
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 11
+    },
+    {
+      "cluster_id": "C59",
+      "domain_id": 20,
+      "domain": "Нормативка и корпоративные знания",
+      "name": "Regulatory impact и управление версиями",
+      "v1_ids": [
+        144
+      ],
+      "v2_ids": [
+        382,
+        383,
+        387,
+        388,
+        391,
+        392,
+        395,
+        397,
+        398
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 10
+    },
+    {
+      "cluster_id": "C60",
+      "domain_id": 20,
+      "domain": "Нормативка и корпоративные знания",
+      "name": "Compliance managed workflow",
+      "v1_ids": [
+        291
+      ],
+      "v2_ids": [
+        389,
+        396
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 3
+    },
+    {
+      "cluster_id": "C61",
+      "domain_id": 21,
+      "domain": "OT cybersecurity и AI governance",
+      "name": "OT visibility и supply-chain security",
+      "v1_ids": [
+        297
+      ],
+      "v2_ids": [
+        401,
+        402,
+        404,
+        405,
+        406,
+        407,
+        414,
+        415
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 9
+    },
+    {
+      "cluster_id": "C62",
+      "domain_id": 21,
+      "domain": "OT cybersecurity и AI governance",
+      "name": "Detection, secure remote access, incident triage",
+      "v1_ids": [
+        298
+      ],
+      "v2_ids": [
+        403,
+        408,
+        409,
+        410,
+        411,
+        412,
+        413
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 8
+    },
+    {
+      "cluster_id": "C63",
+      "domain_id": 21,
+      "domain": "OT cybersecurity и AI governance",
+      "name": "AI risk governance и безопасные агенты",
+      "v1_ids": [
+        294,
+        295,
+        296
+      ],
+      "v2_ids": [
+        416,
+        417,
+        418,
+        419,
+        420
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 8
+    },
+    {
+      "cluster_id": "C64",
+      "domain_id": 22,
+      "domain": "Климатическая устойчивость и ЧС",
+      "name": "Прогноз природных угроз и exposure",
+      "v1_ids": [],
+      "v2_ids": [
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        430,
+        431,
+        432
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 9
+    },
+    {
+      "cluster_id": "C65",
+      "domain_id": 22,
+      "domain": "Климатическая устойчивость и ЧС",
+      "name": "Подготовка к ЧС и восстановление",
+      "v1_ids": [],
+      "v2_ids": [
+        427,
+        428,
+        429,
+        433,
+        434,
+        435,
+        436,
+        439,
+        440
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 9
+    },
+    {
+      "cluster_id": "C66",
+      "domain_id": 22,
+      "domain": "Климатическая устойчивость и ЧС",
+      "name": "Долгосрочная resilience-экономика",
+      "v1_ids": [],
+      "v2_ids": [
+        437,
+        438
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 2
+    },
+    {
+      "cluster_id": "C67",
+      "domain_id": 23,
+      "domain": "ЦОД, AI-нагрузки и новые потребители",
+      "name": "Grid readiness и присоединение крупных нагрузок",
+      "v1_ids": [],
+      "v2_ids": [
+        441,
+        442,
+        443,
+        444,
+        455,
+        458,
+        459,
+        460
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 8
+    },
+    {
+      "cluster_id": "C68",
+      "domain_id": 23,
+      "domain": "ЦОД, AI-нагрузки и новые потребители",
+      "name": "Электроснабжение/надёжность ЦОД",
+      "v1_ids": [],
+      "v2_ids": [
+        445,
+        446,
+        447,
+        451,
+        452,
+        453,
+        454
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 7
+    },
+    {
+      "cluster_id": "C69",
+      "domain_id": 23,
+      "domain": "ЦОД, AI-нагрузки и новые потребители",
+      "name": "Гибкость и оптимизация энергопотребления ЦОД",
+      "v1_ids": [],
+      "v2_ids": [
+        448,
+        449,
+        450,
+        456,
+        457
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 5
+    },
+    {
+      "cluster_id": "C70",
+      "domain_id": 24,
+      "domain": "AI-native company operations",
+      "name": "AI sales/service desk и executive brief",
+      "v1_ids": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        288,
+        289,
+        290,
+        292
+      ],
+      "v2_ids": [
+        461,
+        462,
+        464,
+        468,
+        475,
+        476,
+        477
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 17
+    },
+    {
+      "cluster_id": "C71",
+      "domain_id": 24,
+      "domain": "AI-native company operations",
+      "name": "Agentic back-office, orchestration и process mining",
+      "v1_ids": [
+        293,
+        299,
+        300
+      ],
+      "v2_ids": [
+        463,
+        465,
+        466,
+        467,
+        469,
+        470,
+        473,
+        474,
+        478,
+        479
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 13
+    },
+    {
+      "cluster_id": "C72",
+      "domain_id": 24,
+      "domain": "AI-native company operations",
+      "name": "Knowledge governance и benefits tracking",
+      "v1_ids": [],
+      "v2_ids": [
+        471,
+        472,
+        480
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 3
+    },
+    {
+      "cluster_id": "C73",
+      "domain_id": 25,
+      "domain": "Упаковка managed services и product models",
+      "name": "Technical monitoring-as-a-Service",
+      "v1_ids": [],
+      "v2_ids": [
+        481,
+        482,
+        483,
+        484,
+        489,
+        490,
+        491,
+        492,
+        497
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 9
+    },
+    {
+      "cluster_id": "C74",
+      "domain_id": 25,
+      "domain": "Упаковка managed services и product models",
+      "name": "Documents/processes-as-a-Service",
+      "v1_ids": [],
+      "v2_ids": [
+        485,
+        486,
+        487,
+        488,
+        493,
+        494,
+        500
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 7
+    },
+    {
+      "cluster_id": "C75",
+      "domain_id": 25,
+      "domain": "Упаковка managed services и product models",
+      "name": "White-label, shared back-office и OEM partner",
+      "v1_ids": [],
+      "v2_ids": [
+        495,
+        496,
+        498,
+        499
+      ],
+      "status": "RESEARCH / qualitative grouping, not market validation",
+      "size": 4
+    }
+  ]
+}
