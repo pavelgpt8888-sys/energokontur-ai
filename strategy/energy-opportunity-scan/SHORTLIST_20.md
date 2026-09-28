@@ -1,3 +1,5 @@
+> **Competitor review — 2026-09-29:** This pre-competition shortlist remains a hypothesis pool, NOT a ranking or claim of market whitespace. [Belarus competitor scan](BELARUS_COMPETITOR_LANDSCAPE_2026-09-29.md) confirms close existing offers: YYTECH publicly shows electrical equipment/substation quotation from PDF, A2 Consulting shows tender RAG, Whale deploys AI layer above ERP/CRM, several vendors sell audit→pilot→production. Validate C46/C47 only as a broader quote-to-cash / accountable managed process, not as a standalone PDF/AI feature. A paid 10–12k BYN audit requires decision-grade scope and buyer willingness-to-pay evidence.
+
 # 20 clusters for commercial discovery (not a proven ranking)
 
 Date 2026-09-29. Source: [75-cluster taxonomy](CLUSTERS_75.md) derived from v1/300 + independent v2/500. The entries are 20 **test hypotheses**, not 20 independent SaaS products. No one has yet measured willingness to pay or founder's actual contact conversion.
