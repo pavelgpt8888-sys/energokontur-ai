@@ -1,3 +1,5 @@
+> **Historical snapshot:** This was the first wave of 33 supplier profiles. The expanded canonical 56-provider research and current conclusions are in [BELARUS_COMPETITOR_DEEP_DIVE_56_2026-09-29.md](BELARUS_COMPETITOR_DEEP_DIVE_56_2026-09-29.md); use its [registry](COMPETITORS_BY_56_2026-09-29.json). The old 33 remain for provenance, not a final market count.
+
 # Competitive landscape Belarus: AI automation & industrial B2B
 
 **Research date:** 2026-09-29. Public-information screen / first wave, not comprehensive registry or estimate of all Belarus IT companies.
