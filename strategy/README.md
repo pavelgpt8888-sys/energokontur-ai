@@ -23,3 +23,8 @@ Use `energokontur-ai` as the canonical repository for energy product/business re
 - [Adjacent sectors: manufacturing, distribution, EPC, logistics, finance](energy-opportunity-scan/CROSS_VERTICAL_MARKET_SCAN.md)
 - [Financial stress test](energy-opportunity-scan/FINANCIAL_STRESS_TEST.md)
 - [90-day validation experiment](energy-opportunity-scan/DISCOVERY_90_DAYS.md)
+
+## Belarus competition (2026-09-29)
+- [33-provider evidence map and revised positioning](energy-opportunity-scan/BELARUS_COMPETITOR_LANDSCAPE_2026-09-29.md)
+- [Machine-readable company registry](energy-opportunity-scan/COMPETITORS_BY_33.json)
+- IMPORTANT: audit→pilot→support, PDF→technical quote, tender RAG and AI layer over ERP/CRM already have publicly visible Belarus competitors; do not call these offers unique before checking scope and buyer WTP.
