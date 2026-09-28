@@ -1,0 +1,340 @@
+{
+  "finding_date": "2026-09-29",
+  "scope": "Publicly discoverable Belarus-serving suppliers with offer or credible vendor-partner record. Not a census of registered legal entities or proven active AI implementations.",
+  "total_companies_in_screen": 33,
+  "direct_public_AI_BPM_offers": 18,
+  "adjacent_budget_competitors": 15,
+  "dedupe": "AIAI=Baycom Systems; PRORESULT/bit24.by grouped; R9 pages grouped; Novacom Systems=enova.by, not novacom.ru or nvcm.net; 1C partner records may lack proven AI services.",
+  "records": [
+    {
+      "id": "A01",
+      "group": "Direct AI / BPM marketing",
+      "name": "Novacom Systems",
+      "url": "https://enova.by/",
+      "offer": "ECM, Directum Bel, AI on-prem, contracts",
+      "evidence_type": "Vendor partner listing and external MNS case",
+      "evidence_url": "https://www.directum.ru/partner/3381224",
+      "caution": "Verified external project; vendor's 450+ using solutions != 450 AI customers"
+    },
+    {
+      "id": "A02",
+      "group": "Direct AI / BPM marketing",
+      "name": "A2 Consulting",
+      "url": "https://a2c.by/services/ai-rpa-ml/",
+      "offer": "AI audit/RPA/ML, DWH, RAG tender checking, manufacturing",
+      "evidence_type": "Detailed company project listings",
+      "evidence_url": "https://www.a2c.by/projects/",
+      "caution": "Tender RAG and manufacturer use cases directly overlap our concepts"
+    },
+    {
+      "id": "A03",
+      "group": "Direct AI / BPM marketing",
+      "name": "YYTECH",
+      "url": "https://yytech.by/",
+      "offer": "AI audit-pilot-production, technical PDF→spec/quote, assistant",
+      "evidence_type": "Detailed vendor case AVZ and substation quotation",
+      "evidence_url": "https://yytech.by/",
+      "caution": "Exact near-match to our industrial quotation wedge"
+    },
+    {
+      "id": "A04",
+      "group": "Direct AI / BPM marketing",
+      "name": "Whale Studio",
+      "url": "https://whale.by/vnedrenie-aiii-i-avtomatizaciya",
+      "offer": "AI layer over ERP/CRM/WMS/documents, process loss detection",
+      "evidence_type": "Detailed offering, projects claimed on site",
+      "evidence_url": "https://whale.by/vnedrenie-aiii-i-avtomatizaciya",
+      "caution": "Similar offer positioning: keep existing systems and improve SLA"
+    },
+    {
+      "id": "A05",
+      "group": "Direct AI / BPM marketing",
+      "name": "Chota",
+      "url": "https://chota.by/",
+      "offer": "AI agents, RAG, workflow, custom app, security",
+      "evidence_type": "Own service and product pages",
+      "evidence_url": "https://chota.by/",
+      "caution": "Cross-functional AI and safe agents"
+    },
+    {
+      "id": "A06",
+      "group": "Direct AI / BPM marketing",
+      "name": "Mobecan",
+      "url": "https://ai.mobecan.com/",
+      "offer": "AI workflow/agents/apps and Assist24 platform",
+      "evidence_type": "Specific project/product listings",
+      "evidence_url": "https://ai.mobecan.com/automation",
+      "caution": "Agent+workflow integration"
+    },
+    {
+      "id": "A07",
+      "group": "Direct AI / BPM marketing",
+      "name": "FS",
+      "url": "https://fs.by/service/vnedrenie-iskusstvennogo-intellekta/",
+      "offer": "AI audit, data, API integration, process automation",
+      "evidence_type": "Detailed own service description",
+      "evidence_url": "https://fs.by/service/avtomatizacziya-biznes-proczessov/",
+      "caution": "Strong conceptual overlap"
+    },
+    {
+      "id": "A08",
+      "group": "Direct AI / BPM marketing",
+      "name": "JS Global",
+      "url": "https://jsglobal.by/ai-uslugi/ai-avtomatizaciya-processov/",
+      "offer": "n8n/Make/AI workflow, CRM/ERP integrations",
+      "evidence_type": "Own service and integration descriptions",
+      "evidence_url": "https://jsglobal.by/biznes-avtomatizacziya-i-czifrovaya-transformacziya/",
+      "caution": "Same no-code/low-code technology shelf"
+    },
+    {
+      "id": "A09",
+      "group": "Direct AI / BPM marketing",
+      "name": "AIAI / Байком Системз",
+      "url": "https://aiai.by/consulting",
+      "offer": "AI audit, AI strategy/ROI and deployment",
+      "evidence_type": "Detailed own offer, self-reported client counts",
+      "evidence_url": "https://aiai.by/implementation",
+      "caution": "Own audit page includes free 30-min meeting; full scope price by quote"
+    },
+    {
+      "id": "A10",
+      "group": "Direct AI / BPM marketing",
+      "name": "Deadline",
+      "url": "https://deadline.by/uslugi/ai",
+      "offer": "RAG, AI agents and CRM integration",
+      "evidence_type": "Published starting fees",
+      "evidence_url": "https://deadline.by/uslugi/ai",
+      "caution": "RAG from 2,000 BYN, AI agent from 3,500 BYN (narrow advertised minimum)"
+    },
+    {
+      "id": "A11",
+      "group": "Direct AI / BPM marketing",
+      "name": "Goodweb",
+      "url": "https://goodweb.by/",
+      "offer": "AI agents, construction workflows and corporate tools",
+      "evidence_type": "Own project descriptions",
+      "evidence_url": "https://goodweb.by/",
+      "caution": "Vendor describes private construction automation case"
+    },
+    {
+      "id": "A12",
+      "group": "Direct AI / BPM marketing",
+      "name": "PSP / Сергей Пузанов",
+      "url": "https://ippsp.by/",
+      "offer": "Business audit, 1C + local LLM, process improvement",
+      "evidence_type": "Own personal commercial offer",
+      "evidence_url": "https://ippsp.by/",
+      "caution": "Small expert-led direct alternative"
+    },
+    {
+      "id": "A13",
+      "group": "Direct AI / BPM marketing",
+      "name": "R9",
+      "url": "https://r9.by/business-process-automation",
+      "offer": "BPM robots, AI sales agents, CRM and finance workflows",
+      "evidence_type": "Published starting fees and process lists",
+      "evidence_url": "https://r9.by/ai-agents-automation",
+      "caution": "BPM 900 / 1,800 / 3,600 BYN starting packages; not like-for-like audit"
+    },
+    {
+      "id": "A14",
+      "group": "Direct AI / BPM marketing",
+      "name": "UTUG AI",
+      "url": "https://www.ai.utug.by/",
+      "offer": "AI employees, sales/HR/inventory, vertical packages",
+      "evidence_type": "Own portfolio and product descriptions; benefits self-reported",
+      "evidence_url": "https://www.ai.utug.by/",
+      "caution": "Productized AI-agency framing"
+    },
+    {
+      "id": "A15",
+      "group": "Direct AI / BPM marketing",
+      "name": "BelAgent",
+      "url": "https://belagent.com/",
+      "offer": "Agents for recurring tasks, email, tender monitor, CRM",
+      "evidence_type": "Own specific use-case descriptions",
+      "evidence_url": "https://belagent.com/",
+      "caution": "Specialist/boutique offer; company-scale claims not independently verified"
+    },
+    {
+      "id": "A16",
+      "group": "Direct AI / BPM marketing",
+      "name": "Forkdom Solutions",
+      "url": "https://forkdom.by/",
+      "offer": "AI agents, internal apps, CRM/integration",
+      "evidence_type": "Own AI service page and PVT claim",
+      "evidence_url": "https://forkdom.by/",
+      "caution": "Custom software alternative"
+    },
+    {
+      "id": "A17",
+      "group": "Direct AI / BPM marketing",
+      "name": "AlphaDog",
+      "url": "https://alphadog.by/ai",
+      "offer": "AI bot/agent for sales, CRM, calendars",
+      "evidence_type": "Own AI service page",
+      "evidence_url": "https://alphadog.by/ai",
+      "caution": "Narrower customer communication alternative"
+    },
+    {
+      "id": "A18",
+      "group": "Direct AI / BPM marketing",
+      "name": "RDN.BY",
+      "url": "https://www.rdn.by/services/geo/integraciya-ii-v-biznes-processy-i-crm-sistemy",
+      "offer": "AI in Bitrix/amoCRM/ERP, marketing growth systems",
+      "evidence_type": "Own service and listed starting price",
+      "evidence_url": "https://www.rdn.by/services/geo/integraciya-ii-v-biznes-processy-i-crm-sistemy",
+      "caution": "Price on single-page offer may be narrow micro-service, not an enterprise solution"
+    },
+    {
+      "id": "B01",
+      "group": "Adjacent incumbent / budget competitor",
+      "name": "PRORESULT / bit24.by",
+      "url": "https://proresult.by/",
+      "offer": "Bitrix24 process implementation, AI add-ons, integrations",
+      "evidence_type": "Own company service page",
+      "evidence_url": "https://proresult.by/o-proekte/",
+      "caution": "Count as one business/offer family, not two separate rivals from two sites"
+    },
+    {
+      "id": "B02",
+      "group": "Adjacent incumbent / budget competitor",
+      "name": "Атрикс",
+      "url": "https://atrixpro.by/",
+      "offer": "Bitrix24 ↔ 1C and management workflow",
+      "evidence_type": "Own service page",
+      "evidence_url": "https://atrixpro.by/",
+      "caution": "Competes for CRM/process budgets"
+    },
+    {
+      "id": "B03",
+      "group": "Adjacent incumbent / budget competitor",
+      "name": "Первый Бит (BY)",
+      "url": "https://www.1cbit.by/services/rpa-robotizatsiya-biznes-protsessov/",
+      "offer": "1C, ERP, Bitrix24, BI, RPA robotization",
+      "evidence_type": "Local Belarus RPA/BI/Bitrix pages",
+      "evidence_url": "https://www.1cbit.by/1s-biznes-zadachi/avtomatizaciya-biznes-analiza/",
+      "caution": "Enterprise and SMB; published global metrics not Belarus-only"
+    },
+    {
+      "id": "B04",
+      "group": "Adjacent incumbent / budget competitor",
+      "name": "IBA Group",
+      "url": "https://ibagroupit.com/solutions-and-products/intelligent-enterprise/",
+      "offer": "EasyRPA, enterprise ERP/analytics",
+      "evidence_type": "Published product and practice description",
+      "evidence_url": "https://ibagroupit.com/solutions-and-products/intelligent-enterprise/",
+      "caution": "Large enterprise incumbent/partner"
+    },
+    {
+      "id": "B05",
+      "group": "Adjacent incumbent / budget competitor",
+      "name": "ЮКОЛА-ИНФО-Брест",
+      "url": "https://1soft.by/",
+      "offer": "1C ERP, industry, construction, TOiR, WMS",
+      "evidence_type": "1C listed cases incl Belshina and 2026 installations",
+      "evidence_url": "https://1c.by/solutions/?PartID=110337",
+      "caution": "Industrial installed-base incumbent; AI not prerequisite"
+    },
+    {
+      "id": "B06",
+      "group": "Adjacent incumbent / budget competitor",
+      "name": "МиСофт",
+      "url": "https://www.misoft.by/",
+      "offer": "1C ERP, industry and construction",
+      "evidence_type": "1C Centre ERP listing",
+      "evidence_url": "https://1c.by/firm1c/partner/erp/",
+      "caution": "Owns ERP-integration budget"
+    },
+    {
+      "id": "B07",
+      "group": "Adjacent incumbent / budget competitor",
+      "name": "ГК СофтСервис",
+      "url": "https://softservice.by/",
+      "offer": "1C ERP, industry and energy clients",
+      "evidence_type": "1C case at Grodnoenergo (2024)",
+      "evidence_url": "https://1c.by/solutions/?sort=arm",
+      "caution": "Relevant energy/ERP incumbent"
+    },
+    {
+      "id": "B08",
+      "group": "Adjacent incumbent / budget competitor",
+      "name": "ГК Главбух",
+      "url": "https://gbsoft.by/",
+      "offer": "1C ERP manufacturing/trade",
+      "evidence_type": "1C case Minskoblgaz and ERP partner directory",
+      "evidence_url": "https://1c.by/solutions/?sort=arm",
+      "caution": "Energy and enterprise customer installed base"
+    },
+    {
+      "id": "B09",
+      "group": "Adjacent incumbent / budget competitor",
+      "name": "Хьюмен Интел Систем",
+      "url": "https://his.by/",
+      "offer": "1C ERP/CRM, production/construction",
+      "evidence_type": "1C ERP partner directory, published cases",
+      "evidence_url": "https://1c.by/firm1c/partner/erp/",
+      "caution": "Adjacent back-office integrator"
+    },
+    {
+      "id": "B10",
+      "group": "Adjacent incumbent / budget competitor",
+      "name": "ГК Аверсон",
+      "url": "https://1c.by/firm1c/partner/erp/",
+      "offer": "1C/CRM/ERP, trade and production",
+      "evidence_type": "1C partner directory and case listing",
+      "evidence_url": "https://1c.by/solutions/?sort=arm",
+      "caution": "ERP/buyer channel incumbent"
+    },
+    {
+      "id": "B11",
+      "group": "Adjacent incumbent / budget competitor",
+      "name": "Электронная экономика",
+      "url": "https://1c.by/solutions/?sort=arm",
+      "offer": "1C SED/reference data and purchasing workflow",
+      "evidence_type": "Published 1C case Minskenergo (2021)",
+      "evidence_url": "https://1c.by/solutions/?sort=arm",
+      "caution": "Energy-adjacent incumbent; company site not validated in this pass"
+    },
+    {
+      "id": "B12",
+      "group": "Adjacent incumbent / budget competitor",
+      "name": "ИНТЕРМЕХ",
+      "url": "https://intermech.ru/intermech_tibo_2026_news.html",
+      "offer": "IPS PLM, engineering data, industrial AI",
+      "evidence_type": "2026 public industry presentation and product news",
+      "evidence_url": "https://intermech.ru/intermech_cipr_2026.html",
+      "caution": "Industrial PLM incumbent; not generic SMB AI agency"
+    },
+    {
+      "id": "B13",
+      "group": "Adjacent incumbent / budget competitor",
+      "name": "СмартЭксперт",
+      "url": "https://1c.by/firm1c/partner/erp/",
+      "offer": "1C ERP and CRM",
+      "evidence_type": "1C ERP partner directory",
+      "evidence_url": "https://1c.by/firm1c/partner/erp/",
+      "caution": "Adjacent ecosystem, AI service not verified"
+    },
+    {
+      "id": "B14",
+      "group": "Adjacent incumbent / budget competitor",
+      "name": "Интеллектуальные системы",
+      "url": "https://solutions.1c.ru/catalog/buhv8-bl/franch",
+      "offer": "1C implementation and support",
+      "evidence_type": "Current 1C catalog listing",
+      "evidence_url": "https://solutions.1c.ru/catalog/buhv8-bl/franch",
+      "caution": "Adjacent ecosystem, AI service not verified"
+    },
+    {
+      "id": "B15",
+      "group": "Adjacent incumbent / budget competitor",
+      "name": "Системные решения",
+      "url": "https://solutions.1c.ru/catalog/small-firm-bl/franch",
+      "offer": "1C SMB software and implementation",
+      "evidence_type": "Current 1C catalog listing",
+      "evidence_url": "https://solutions.1c.ru/catalog/small-firm-bl/franch",
+      "caution": "Adjacent ecosystem, AI service not verified"
+    }
+  ]
+}
