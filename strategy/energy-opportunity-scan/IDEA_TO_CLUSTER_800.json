@@ -1,0 +1,5606 @@
+{
+  "schema": "2026-09-29-v1",
+  "notes": "One primary cluster per original idea; no claim of semantic uniqueness",
+  "mapping": [
+    {
+      "source": "v2",
+      "source_id": 1,
+      "title": "AI-сводка состояния сети к началу смены",
+      "cluster_id": "C01",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 2,
+      "title": "Автоматическое построение хронологии аварии из SCADA, звонков и журналов",
+      "cluster_id": "C01",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 3,
+      "title": "Карта вероятного места повреждения по совокупности сигналов",
+      "cluster_id": "C02",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 4,
+      "title": "Оптимизатор последовательности восстановления питания",
+      "cluster_id": "C02",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 5,
+      "title": "Подсказчик безопасных вариантов перепитки нагрузки",
+      "cluster_id": "C02",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 6,
+      "title": "Автоприоритизация аварий по числу и типу отключённых потребителей",
+      "cluster_id": "C02",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 7,
+      "title": "Прогноз времени восстановления электроснабжения (ETR)",
+      "cluster_id": "C02",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 8,
+      "title": "Детектор противоречивых команд и записей диспетчера",
+      "cluster_id": "C01",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 9,
+      "title": "Контроль исполнения диспетчерских распоряжений",
+      "cluster_id": "C03",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 10,
+      "title": "Автогенерация карточки технологического нарушения",
+      "cluster_id": "C01",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 11,
+      "title": "Классификатор первопричин аварий с Pareto-анализом",
+      "cluster_id": "C01",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 12,
+      "title": "Сценарный тренажёр массового отключения",
+      "cluster_id": "C03",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 13,
+      "title": "Погодный nowcasting для оперативного штаба",
+      "cluster_id": "C03",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 14,
+      "title": "Прогноз потребности в аварийных бригадах на сутки",
+      "cluster_id": "C03",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 15,
+      "title": "Оптимизатор размещения аварийного запаса до шторма",
+      "cluster_id": "C03",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 16,
+      "title": "Автоматический briefing для руководства при крупной аварии",
+      "cluster_id": "C01",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 17,
+      "title": "Сводка незакрытых рисков при сдаче смены",
+      "cluster_id": "C01",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 18,
+      "title": "Контроль рассинхронизации оперативной схемы и фактического состояния",
+      "cluster_id": "C02",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 19,
+      "title": "Автоформирование post-mortem после инцидента",
+      "cluster_id": "C01",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 20,
+      "title": "Цифровой журнал решений оперативного штаба",
+      "cluster_id": "C01",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 21,
+      "title": "Единый health score оборудования из дефектов, испытаний и ремонтов",
+      "cluster_id": "C04",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 22,
+      "title": "Риск-ориентированный backlog ремонтов",
+      "cluster_id": "C05",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 23,
+      "title": "Оптимизация годовой ремонтной программы по бюджету и риску",
+      "cluster_id": "C05",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 24,
+      "title": "Предиктивная замена оборудования по остаточному ресурсу",
+      "cluster_id": "C05",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 25,
+      "title": "Автоматическая критичность активов по последствиям отказа",
+      "cluster_id": "C05",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 26,
+      "title": "Поиск хронически проблемных единиц оборудования",
+      "cluster_id": "C04",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 27,
+      "title": "Рекомендации ремонтировать/менять/наблюдать по TCO",
+      "cluster_id": "C04",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 28,
+      "title": "Автосбор истории жизни оборудования из разрозненных систем",
+      "cluster_id": "C05",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 29,
+      "title": "Контроль пропущенных регламентных воздействий",
+      "cluster_id": "C06",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 30,
+      "title": "Оптимизация окон ремонта по совместимости отключений",
+      "cluster_id": "C06",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 31,
+      "title": "Планирование запасных частей под ремонтную программу",
+      "cluster_id": "C06",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 32,
+      "title": "Прогноз аварийного расхода ЗИП",
+      "cluster_id": "C06",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 33,
+      "title": "Мониторинг гарантий производителей оборудования",
+      "cluster_id": "C06",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 34,
+      "title": "Автогенерация дефектной ведомости из осмотра",
+      "cluster_id": "C06",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 35,
+      "title": "Оценка качества выполненного ремонта по последующей статистике",
+      "cluster_id": "C05",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 36,
+      "title": "Сравнение ремонтных бригад по повторным дефектам",
+      "cluster_id": "C04",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 37,
+      "title": "Цифровой паспорт актива с графом связанного оборудования",
+      "cluster_id": "C04",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 38,
+      "title": "Поиск аналогов снятого с производства оборудования",
+      "cluster_id": "C04",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 39,
+      "title": "AI-анализ причин повторных ремонтов",
+      "cluster_id": "C05",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 40,
+      "title": "Ремонтная программа с Monte Carlo оценкой риска отказов",
+      "cluster_id": "C05",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 41,
+      "title": "Автоматический поиск повреждений изоляторов на фото ВЛ",
+      "cluster_id": "C07",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 42,
+      "title": "Детектор коррозии металлоконструкций подстанций",
+      "cluster_id": "C07",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 43,
+      "title": "Определение трещин и сколов опор по фото",
+      "cluster_id": "C07",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 44,
+      "title": "Контроль провеса проводов по видео/лидару",
+      "cluster_id": "C07",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 45,
+      "title": "Поиск деревьев в опасной зоне с прогнозом роста",
+      "cluster_id": "C08",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 46,
+      "title": "Спутниковое выявление самовольной застройки охранных зон",
+      "cluster_id": "C08",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 47,
+      "title": "Автосравнение состояния объекта между двумя облётами",
+      "cluster_id": "C08",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 48,
+      "title": "Планировщик маршрута дрона по приоритету дефектов",
+      "cluster_id": "C08",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 49,
+      "title": "AI-оценка качества расчистки просеки",
+      "cluster_id": "C08",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 50,
+      "title": "Распознавание маркировки и шильдиков в полевых фото",
+      "cluster_id": "C09",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 51,
+      "title": "Фотоинвентаризация оборудования подстанции",
+      "cluster_id": "C09",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 52,
+      "title": "Термография: автоматическая нормализация по нагрузке и погоде",
+      "cluster_id": "C09",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 53,
+      "title": "Распознавание утечек масла и следов перегрева",
+      "cluster_id": "C07",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 54,
+      "title": "Видеоконтроль положения разъединителей без телесигнализации",
+      "cluster_id": "C09",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 55,
+      "title": "AR-подсказки осмотрщику поверх камеры смартфона",
+      "cluster_id": "C07",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 56,
+      "title": "Автопривязка полевого фото к объекту и координатам",
+      "cluster_id": "C08",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 57,
+      "title": "Поиск дефектов кабельных сооружений на видео робота",
+      "cluster_id": "C09",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 58,
+      "title": "Автоотчёт по облёту с картой дефектов",
+      "cluster_id": "C08",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 59,
+      "title": "Оценка доступности подъезда к опоре по спутниковым снимкам",
+      "cluster_id": "C09",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 60,
+      "title": "Контроль строительства ЛЭП по периодическим аэрофотосъёмкам",
+      "cluster_id": "C08",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 61,
+      "title": "Автоматическое определение фактической топологии сети 0,4 кВ",
+      "cluster_id": "C10",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 62,
+      "title": "Идентификация фазы абонента по профилю напряжения",
+      "cluster_id": "C10",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 63,
+      "title": "Поиск перегруженных нулевых проводников",
+      "cluster_id": "C10",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 64,
+      "title": "Прогноз перегруза распределительных трансформаторов",
+      "cluster_id": "C10",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 65,
+      "title": "Карта низкого напряжения по данным умных счётчиков",
+      "cluster_id": "C10",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 66,
+      "title": "Автопоиск плохих контактных соединений по профилям напряжения",
+      "cluster_id": "C10",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 67,
+      "title": "Оценка технических потерь без ручной паспортизации сети",
+      "cluster_id": "C11",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 68,
+      "title": "Приоритизация реконструкции ТП 10/0,4 кВ",
+      "cluster_id": "C11",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 69,
+      "title": "Рекомендации по перераспределению фазной нагрузки",
+      "cluster_id": "C11",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 70,
+      "title": "Прогноз обратных потоков от распределённой генерации",
+      "cluster_id": "C11",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 71,
+      "title": "Детектор скрытых перегрузок по температуре и профилям нагрузки",
+      "cluster_id": "C11",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 72,
+      "title": "Автоматический расчёт hosting capacity на фидере",
+      "cluster_id": "C11",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 73,
+      "title": "Динамическое управление напряжением OLTC/регуляторами",
+      "cluster_id": "C11",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 74,
+      "title": "Оптимизация установки конденсаторных батарей в распределительной сети",
+      "cluster_id": "C11",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 75,
+      "title": "Поиск неучтённых ответвлений по энергетическому балансу",
+      "cluster_id": "C10",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 76,
+      "title": "Цифровая карта качества данных распределительной сети",
+      "cluster_id": "C10",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 77,
+      "title": "Приоритизация установки датчиков на фидерах",
+      "cluster_id": "C12",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 78,
+      "title": "Автокалибровка модели сети по AMI данным",
+      "cluster_id": "C12",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 79,
+      "title": "Симулятор подключения тепловых насосов/EV на улицу или микрорайон",
+      "cluster_id": "C12",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 80,
+      "title": "Прогноз числа жалоб на напряжение при росте нагрузки",
+      "cluster_id": "C12",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 81,
+      "title": "Dynamic Line Rating как сервис для типовой ВЛ",
+      "cluster_id": "C13",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 82,
+      "title": "Dynamic Transformer Rating для силовых трансформаторов",
+      "cluster_id": "C13",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 83,
+      "title": "Оптимизатор topology reconfiguration для снятия перегрузок",
+      "cluster_id": "C14",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 84,
+      "title": "Скрининг линий-кандидатов для DLR по погоде и загрузке",
+      "cluster_id": "C13",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 85,
+      "title": "AI-прогноз динамического теплового резерва линии",
+      "cluster_id": "C13",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 86,
+      "title": "Расчёт экономического эффекта DLR против реконструкции",
+      "cluster_id": "C15",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 87,
+      "title": "Подбор участков для reconductoring по стоимости высвобожденного МВт",
+      "cluster_id": "C15",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 88,
+      "title": "Оптимизатор phase-shifting transformer режимов",
+      "cluster_id": "C14",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 89,
+      "title": "Decision support для advanced power-flow control",
+      "cluster_id": "C14",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 90,
+      "title": "Автоматический поиск узких мест N-1",
+      "cluster_id": "C15",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 91,
+      "title": "Карта скрытой пропускной способности сети по времени суток",
+      "cluster_id": "C13",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 92,
+      "title": "Сценарии voltage uprating существующих линий",
+      "cluster_id": "C15",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 93,
+      "title": "Dynamic Operating Envelope для крупных подключений",
+      "cluster_id": "C15",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 94,
+      "title": "Non-firm connection calculator для новых потребителей",
+      "cluster_id": "C14",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 95,
+      "title": "Storage-as-a-transmission-asset screening",
+      "cluster_id": "C15",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 96,
+      "title": "Оптимизатор быстрых корректирующих действий при перегрузке",
+      "cluster_id": "C14",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 97,
+      "title": "Выбор мест установки PMU для максимальной наблюдаемости",
+      "cluster_id": "C14",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 98,
+      "title": "Прогноз congestion risk на неделю вперёд",
+      "cluster_id": "C13",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 99,
+      "title": "Сравнение CAPEX сетевого усиления и гибких технологий",
+      "cluster_id": "C15",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 100,
+      "title": "Портфель GETs по принципу стоимость/МВт высвобожденной мощности",
+      "cluster_id": "C15",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 101,
+      "title": "AI-диагностика трансформатора по DGA + нагрузке + температуре",
+      "cluster_id": "C16",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 102,
+      "title": "Онлайн thermal model трансформатора с прогнозом hot-spot",
+      "cluster_id": "C16",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 103,
+      "title": "Раннее обнаружение дефекта РПН по моторному току",
+      "cluster_id": "C16",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 104,
+      "title": "Прогноз ресурса вводов по диэлектрическим параметрам",
+      "cluster_id": "C17",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 105,
+      "title": "Скоринг пожарного риска трансформатора",
+      "cluster_id": "C16",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 106,
+      "title": "Мониторинг деградации масла с трендом и рекомендацией отбора проб",
+      "cluster_id": "C16",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 107,
+      "title": "Автосводка состояния силового трансформатора для главного инженера",
+      "cluster_id": "C17",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 108,
+      "title": "Диагностика выключателя по форме тока привода",
+      "cluster_id": "C17",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 109,
+      "title": "Прогноз механического износа выключателя",
+      "cluster_id": "C17",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 110,
+      "title": "Контроль состояния шинных соединений по распределённой температуре",
+      "cluster_id": "C17",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 111,
+      "title": "Детектор аномалий собственных нужд подстанции",
+      "cluster_id": "C17",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 112,
+      "title": "Автоматический контроль батареи оперативного тока",
+      "cluster_id": "C17",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 113,
+      "title": "Поиск медленных деградаций в токах утечки ОПН",
+      "cluster_id": "C17",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 114,
+      "title": "AI-анализ акустики трансформатора",
+      "cluster_id": "C16",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 115,
+      "title": "Оптимизация графика обслуживания РПН",
+      "cluster_id": "C16",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 116,
+      "title": "Цифровой twin подстанции для ремонтного planning",
+      "cluster_id": "C18",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 117,
+      "title": "Автоинвентаризация схем собственных нужд",
+      "cluster_id": "C18",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 118,
+      "title": "Контроль состояния заземляющего устройства по истории измерений",
+      "cluster_id": "C17",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 119,
+      "title": "Прогноз потребности в мобильной подстанции/трансформаторе",
+      "cluster_id": "C18",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 120,
+      "title": "Подбор retrofit-сенсоров при модернизации старой подстанции",
+      "cluster_id": "C18",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 121,
+      "title": "AI-анализ корректности срабатывания РЗА по событиям",
+      "cluster_id": "C20",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 122,
+      "title": "Автопроверка координации уставок после изменения схемы",
+      "cluster_id": "C19",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 123,
+      "title": "Граф зависимостей уставок и защищаемого оборудования",
+      "cluster_id": "C19",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 124,
+      "title": "Контроль рассинхронизации настроек терминала и базы уставок",
+      "cluster_id": "C19",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 125,
+      "title": "Автотест GOOSE-сообщений IEC 61850",
+      "cluster_id": "C21",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 126,
+      "title": "Контроль качества SCL/SCD engineering",
+      "cluster_id": "C21",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 127,
+      "title": "Автоформирование test plan для цифровой подстанции",
+      "cluster_id": "C21",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 128,
+      "title": "Детектор необычной последовательности событий в SOE",
+      "cluster_id": "C20",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 129,
+      "title": "Поиск ложных/дрожащих сигналов телемеханики",
+      "cluster_id": "C20",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 130,
+      "title": "Автоматическое сопоставление сигналов SCADA с первичным оборудованием",
+      "cluster_id": "C20",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 131,
+      "title": "Проверка резервирования каналов связи РЗА",
+      "cluster_id": "C21",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 132,
+      "title": "Контроль firmware и совместимости терминалов",
+      "cluster_id": "C19",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 133,
+      "title": "Автосбор резервных копий конфигураций с проверкой целостности",
+      "cluster_id": "C21",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 134,
+      "title": "Риск-анализ изменения уставок перед вводом",
+      "cluster_id": "C19",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 135,
+      "title": "Симулятор отказа канала/терминала для проверки схем автоматики",
+      "cluster_id": "C21",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 136,
+      "title": "AI-помощник по эксплуатационной документации конкретного терминала",
+      "cluster_id": "C20",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 137,
+      "title": "Автопротоколирование проверки защит",
+      "cluster_id": "C21",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 138,
+      "title": "Цифровой реестр test equipment для РЗА",
+      "cluster_id": "C21",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 139,
+      "title": "Поиск единичных точек отказа в цепях вторичной коммутации",
+      "cluster_id": "C20",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 140,
+      "title": "Impact analysis изменения первичной схемы на РЗА и телемеханику",
+      "cluster_id": "C21",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 141,
+      "title": "AI-восстановление пропусков интервальных данных учёта",
+      "cluster_id": "C24",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 142,
+      "title": "Детектор перепутанных коэффициентов трансформации",
+      "cluster_id": "C22",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 143,
+      "title": "Автопоиск неправильной полярности ТТ/ТН по профилям",
+      "cluster_id": "C22",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 144,
+      "title": "Скоринг вероятности вмешательства в счётчик",
+      "cluster_id": "C22",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 145,
+      "title": "Кластеризация нетехнических потерь по районам",
+      "cluster_id": "C22",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 146,
+      "title": "Приоритизация выездных проверок по ожидаемому возврату",
+      "cluster_id": "C22",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 147,
+      "title": "Баланс электроэнергии до уровня фидера/ТП в реальном времени",
+      "cluster_id": "C24",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 148,
+      "title": "Автоматический поиск рассинхронизации времени приборов учёта",
+      "cluster_id": "C24",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 149,
+      "title": "Контроль деградации каналов связи AMI",
+      "cluster_id": "C24",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 150,
+      "title": "Прогноз объёма небаланса на конец месяца",
+      "cluster_id": "C22",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 151,
+      "title": "Power Quality event classifier для провалов/гармоник/фликера",
+      "cluster_id": "C22",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 152,
+      "title": "Поиск вероятного источника гармоник по сети",
+      "cluster_id": "C23",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 153,
+      "title": "Автоматическое расследование провала напряжения",
+      "cluster_id": "C23",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 154,
+      "title": "Карта качества электроэнергии для промышленного предприятия",
+      "cluster_id": "C23",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 155,
+      "title": "AI-отчёт по претензии на качество электроэнергии",
+      "cluster_id": "C23",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 156,
+      "title": "Оценка ущерба оборудования от плохого качества питания",
+      "cluster_id": "C23",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 157,
+      "title": "Рекомендации по фильтрам гармоник и компенсации реактивной мощности",
+      "cluster_id": "C23",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 158,
+      "title": "Контроль договорных лимитов мощности в реальном времени",
+      "cluster_id": "C22",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 159,
+      "title": "Прогноз максимума мощности на расчётный период",
+      "cluster_id": "C24",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 160,
+      "title": "Автосверка коммерческого и технического учёта",
+      "cluster_id": "C22",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 161,
+      "title": "Hosting Capacity Map для новых нагрузок и генерации",
+      "cluster_id": "C26",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 162,
+      "title": "Автоскрининг заявки на технологическое присоединение",
+      "cluster_id": "C25",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 163,
+      "title": "Поиск минимальной стоимости точки присоединения",
+      "cluster_id": "C25",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 164,
+      "title": "Сценарное сравнение вариантов усиления сети",
+      "cluster_id": "C26",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 165,
+      "title": "AI-проверка полноты исходных данных на присоединение",
+      "cluster_id": "C25",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 166,
+      "title": "Прогноз очереди на присоединение и сроков реализации",
+      "cluster_id": "C25",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 167,
+      "title": "Скоринг зрелости проекта в очереди на подключение",
+      "cluster_id": "C25",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 168,
+      "title": "Автопоиск «мертвых» заявок, удерживающих мощность",
+      "cluster_id": "C25",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 169,
+      "title": "Non-firm connection offer generator",
+      "cluster_id": "C25",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 170,
+      "title": "Симуляция подключения дата-центра к региональной сети",
+      "cluster_id": "C26",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 171,
+      "title": "Планирование под EV-хабы и электробусы",
+      "cluster_id": "C26",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 172,
+      "title": "Прогноз нагрузки новых жилых районов по данным застройки",
+      "cluster_id": "C26",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 173,
+      "title": "Автоматический forecast нагрузки по участкам сети на 5–10 лет",
+      "cluster_id": "C26",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 174,
+      "title": "Оптимизация сетевых инвестиций при нескольких сценариях спроса",
+      "cluster_id": "C26",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 175,
+      "title": "GeoAI-поиск коридоров для новых линий",
+      "cluster_id": "C27",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 176,
+      "title": "Автооценка ограничений земель/охранных зон для трассы",
+      "cluster_id": "C27",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 177,
+      "title": "Скрининг вариантов новой подстанции по NPV и надёжности",
+      "cluster_id": "C27",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 178,
+      "title": "Генератор инвестиционного обоснования сетевого проекта",
+      "cluster_id": "C27",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 179,
+      "title": "Прогноз дефицита трансформаторной мощности по районам",
+      "cluster_id": "C26",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 180,
+      "title": "Портфель проектов реконструкции по benefit/cost/risk",
+      "cluster_id": "C27",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 181,
+      "title": "DERMS-lite для промышленного парка",
+      "cluster_id": "C28",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 182,
+      "title": "Оптимизатор заряда BESS по тарифу и ограничениям сети",
+      "cluster_id": "C29",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 183,
+      "title": "Battery degradation-aware dispatch",
+      "cluster_id": "C29",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 184,
+      "title": "Рынок гибкости внутри промышленной площадки",
+      "cluster_id": "C28",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 185,
+      "title": "Автоматический demand response для компрессоров/холода/HVAC",
+      "cluster_id": "C28",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 186,
+      "title": "Прогноз доступной гибкости предприятия на сутки",
+      "cluster_id": "C28",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 187,
+      "title": "Платформа агрегатора управляемой нагрузки",
+      "cluster_id": "C28",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 188,
+      "title": "Smart charging автопарка с ограничением по вводу",
+      "cluster_id": "C30",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 189,
+      "title": "V2G scheduler для корпоративного автопарка",
+      "cluster_id": "C30",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 190,
+      "title": "Dynamic charging limits по состоянию локальной сети",
+      "cluster_id": "C29",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 191,
+      "title": "Оптимизатор солнечная генерация + BESS + сеть",
+      "cluster_id": "C29",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 192,
+      "title": "Микросеть для критического объекта с islanding simulation",
+      "cluster_id": "C29",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 193,
+      "title": "Grid-forming BESS feasibility calculator",
+      "cluster_id": "C29",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 194,
+      "title": "Контроль SoH батарей нескольких производителей",
+      "cluster_id": "C29",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 195,
+      "title": "AI-диагностика деградации батарей по telemetry",
+      "cluster_id": "C29",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 196,
+      "title": "Оптимизация размера накопителя под конкретный load profile",
+      "cluster_id": "C29",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 197,
+      "title": "Автоматическая торговая стратегия накопителя при наличии рынка",
+      "cluster_id": "C30",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 198,
+      "title": "Flexibility contract calculator для крупного потребителя",
+      "cluster_id": "C28",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 199,
+      "title": "Управление ограничением пиковой мощности кампуса/завода",
+      "cluster_id": "C30",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 200,
+      "title": "Цифровой паспорт гибкости объекта",
+      "cluster_id": "C30",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 201,
+      "title": "AI-баланс электроэнергии по цехам и технологическим линиям",
+      "cluster_id": "C31",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 202,
+      "title": "Автоматическое выявление аномального энергопотребления оборудования",
+      "cluster_id": "C31",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 203,
+      "title": "Энергоинтенсивность на единицу продукции в реальном времени",
+      "cluster_id": "C31",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 204,
+      "title": "Прогноз энергоёмкости производственного плана",
+      "cluster_id": "C31",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 205,
+      "title": "Оптимизация графика энергоёмких операций по тарифу/лимиту",
+      "cluster_id": "C31",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 206,
+      "title": "Система контроля пиковых нагрузок без остановки производства",
+      "cluster_id": "C31",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 207,
+      "title": "Предиктивный анализ провалов напряжения для чувствительных линий",
+      "cluster_id": "C32",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 208,
+      "title": "Карта критичных нагрузок предприятия",
+      "cluster_id": "C32",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 209,
+      "title": "Сценарии отказа вводов и АВР с оценкой потерь производства",
+      "cluster_id": "C32",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 210,
+      "title": "Оптимизация ДГУ/ИБП/BESS для критической нагрузки",
+      "cluster_id": "C32",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 211,
+      "title": "Автоматический план испытаний резервного питания",
+      "cluster_id": "C32",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 212,
+      "title": "Контроль качества переключений на резерв",
+      "cluster_id": "C32",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 213,
+      "title": "Поиск невидимых базовых нагрузок ночью/в выходные",
+      "cluster_id": "C31",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 214,
+      "title": "AI-рекомендации по компенсации реактивной мощности",
+      "cluster_id": "C31",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 215,
+      "title": "План модернизации электродвигателей по TCO",
+      "cluster_id": "C31",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 216,
+      "title": "Оптимизация работы трансформаторов предприятия по потерям",
+      "cluster_id": "C31",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 217,
+      "title": "Энергетический digital twin производственного участка",
+      "cluster_id": "C33",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 218,
+      "title": "Мониторинг договорной мощности и штрафных рисков",
+      "cluster_id": "C33",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 219,
+      "title": "Measurement & Verification экономии после энергоэффективного проекта",
+      "cluster_id": "C33",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 220,
+      "title": "Energy-as-a-Service dashboard для промышленного клиента",
+      "cluster_id": "C33",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 221,
+      "title": "Compliance cockpit по ТКП/локальным требованиям предприятия",
+      "cluster_id": "C34",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 222,
+      "title": "Автогенерация годового плана работ электрохозяйства",
+      "cluster_id": "C34",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 223,
+      "title": "Контроль сроков ЭФИ, проверок знаний, СИЗ и ТО в одном календаре",
+      "cluster_id": "C34",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 224,
+      "title": "QR-паспорт каждого щита/РУ/электроприёмника",
+      "cluster_id": "C35",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 225,
+      "title": "Мобильный маршрут осмотра с обязательной фотофиксацией",
+      "cluster_id": "C35",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 226,
+      "title": "Автопроверка заполнения оперативных и эксплуатационных журналов",
+      "cluster_id": "C34",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 227,
+      "title": "AI-поиск несоответствий в приказах и инструкциях",
+      "cluster_id": "C34",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 228,
+      "title": "Генератор актуализации локальных инструкций после изменения нормы",
+      "cluster_id": "C34",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 229,
+      "title": "Реестр однолинейных схем с контролем версии",
+      "cluster_id": "C34",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 230,
+      "title": "Сверка фактического щита с однолинейной схемой по фото",
+      "cluster_id": "C35",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 231,
+      "title": "Планировщик отключений для профилактических работ",
+      "cluster_id": "C35",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 232,
+      "title": "Проверка готовности объекта к надзорной проверке",
+      "cluster_id": "C34",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 233,
+      "title": "Автопакет документов для назначения ответственного",
+      "cluster_id": "C34",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 234,
+      "title": "Кабинет аутсорсера электрохозяйства на десятки клиентов",
+      "cluster_id": "C36",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 235,
+      "title": "Risk score объекта по просроченным мероприятиям",
+      "cluster_id": "C35",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 236,
+      "title": "AI-черновик предписания после внутреннего аудита",
+      "cluster_id": "C34",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 237,
+      "title": "Контроль исполнения корректирующих мероприятий",
+      "cluster_id": "C35",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 238,
+      "title": "Ежемесячный health report собственнику объекта",
+      "cluster_id": "C36",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 239,
+      "title": "Смета обязательных работ на следующий год",
+      "cluster_id": "C36",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 240,
+      "title": "Автоподготовка evidence pack к проверке/аудиту",
+      "cluster_id": "C34",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 241,
+      "title": "Полевой планшет ЭТЛ с offline-first вводом измерений",
+      "cluster_id": "C37",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 242,
+      "title": "Автозагрузка результатов с измерительных приборов",
+      "cluster_id": "C37",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 243,
+      "title": "Цифровой test plan по типу электроустановки",
+      "cluster_id": "C37",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 244,
+      "title": "Автопроверка допустимости результата сразу на объекте",
+      "cluster_id": "C37",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 245,
+      "title": "Контроль единиц измерения и коэффициентов в протоколах",
+      "cluster_id": "C37",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 246,
+      "title": "AI-проверка логической согласованности протоколов",
+      "cluster_id": "C37",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 247,
+      "title": "Автосбор технического отчёта из набора испытаний",
+      "cluster_id": "C37",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 248,
+      "title": "График повторных испытаний по объектам клиентов",
+      "cluster_id": "C39",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 249,
+      "title": "Предиктивные напоминания клиенту до истечения срока испытаний",
+      "cluster_id": "C39",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 250,
+      "title": "Маршрутизация выездов лаборатории по географии и оборудованию",
+      "cluster_id": "C39",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 251,
+      "title": "Реестр калибровки/поверки приборов с блокировкой просроченных",
+      "cluster_id": "C37",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 252,
+      "title": "Электронная цепочка custody измерительных файлов",
+      "cluster_id": "C37",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 253,
+      "title": "Автосопоставление измерений с оборудованием по QR",
+      "cluster_id": "C37",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 254,
+      "title": "Сравнение текущих и предыдущих результатов испытаний",
+      "cluster_id": "C37",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 255,
+      "title": "Trend detection деградации изоляции по годам",
+      "cluster_id": "C37",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 256,
+      "title": "AI-объяснение аномального результата инженеру",
+      "cluster_id": "C37",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 257,
+      "title": "Автогенерация перечня недоделок ПНР",
+      "cluster_id": "C38",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 258,
+      "title": "Commissioning checklist из проекта и паспортов оборудования",
+      "cluster_id": "C38",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 259,
+      "title": "Punch-list с фото и ответственными при ПНР",
+      "cluster_id": "C38",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 260,
+      "title": "Цифровой dossier ввода электроустановки в эксплуатацию",
+      "cluster_id": "C38",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 261,
+      "title": "AI-проверка исходных данных перед началом проектирования",
+      "cluster_id": "C40",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 262,
+      "title": "Автогенерация load schedule из технологического задания",
+      "cluster_id": "C40",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 263,
+      "title": "Расчёт нескольких вариантов схемы электроснабжения с TCO",
+      "cluster_id": "C40",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 264,
+      "title": "Автоподбор трансформаторов по сценариям роста нагрузки",
+      "cluster_id": "C40",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 265,
+      "title": "Массовый расчёт кабелей с ограничениями прокладки",
+      "cluster_id": "C40",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 266,
+      "title": "Автопроверка селективности в проекте",
+      "cluster_id": "C40",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 267,
+      "title": "Генерация однолинейной схемы из структурированной модели",
+      "cluster_id": "C40",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 268,
+      "title": "BIM-проверка коллизий кабельных трасс с другими системами",
+      "cluster_id": "C41",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 269,
+      "title": "AI-выявление недостающих элементов на электрической модели BIM",
+      "cluster_id": "C41",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 270,
+      "title": "Автогенерация кабельного журнала из BIM",
+      "cluster_id": "C41",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 271,
+      "title": "Автоподсчёт длин кабеля по маршрутам BIM",
+      "cluster_id": "C41",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 272,
+      "title": "4D-модель последовательности электромонтажа",
+      "cluster_id": "C41",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 273,
+      "title": "Контроль ревизий проекта и impact analysis по смежным разделам",
+      "cluster_id": "C41",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 274,
+      "title": "AI-нормоконтроль с точной ссылкой на источник",
+      "cluster_id": "C42",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 275,
+      "title": "Автопроверка ТУ против проектных решений",
+      "cluster_id": "C42",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 276,
+      "title": "RFI-generator по противоречиям проекта",
+      "cluster_id": "C42",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 277,
+      "title": "Value engineering: альтернативы оборудования без ухудшения требований",
+      "cluster_id": "C41",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 278,
+      "title": "Сравнение проектных вариантов по CAPEX/OPEX/потерям",
+      "cluster_id": "C40",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 279,
+      "title": "AI-черновик пояснительной записки из расчётов",
+      "cluster_id": "C42",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 280,
+      "title": "Design QA dashboard по типам повторяющихся ошибок",
+      "cluster_id": "C42",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 281,
+      "title": "Digital work package для электромонтажной бригады",
+      "cluster_id": "C43",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 282,
+      "title": "Автодекомпозиция проекта в фронты работ",
+      "cluster_id": "C43",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 283,
+      "title": "Генерация недельно-суточного задания из графика",
+      "cluster_id": "C43",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 284,
+      "title": "Контроль фактического прогресса по фото против BIM/плана",
+      "cluster_id": "C44",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 285,
+      "title": "Автоподсчёт завершённых объёмов из полевых данных",
+      "cluster_id": "C43",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 286,
+      "title": "AI-сводка причин отставания по объекту",
+      "cluster_id": "C44",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 287,
+      "title": "Прогноз критического пути на 2–4 недели",
+      "cluster_id": "C43",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 288,
+      "title": "Автогенерация RFI из голосовой заметки прораба",
+      "cluster_id": "C44",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 289,
+      "title": "Field-to-office: фото/голос → задача/акт/заявка на материал",
+      "cluster_id": "C44",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 290,
+      "title": "Автокомплектация исполнительной документации по виду работ",
+      "cluster_id": "C43",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 291,
+      "title": "Проверка комплектности ИД до передачи заказчику",
+      "cluster_id": "C45",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 292,
+      "title": "Redline-to-as-built: перенос полевых изменений в исполнительную схему",
+      "cluster_id": "C43",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 293,
+      "title": "AI-сверка исполнительной схемы с последней ревизией проекта",
+      "cluster_id": "C44",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 294,
+      "title": "Автопривязка сертификатов/паспортов к смонтированному оборудованию",
+      "cluster_id": "C45",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 295,
+      "title": "Матрица скрытых работ с предупреждением до закрытия конструкций",
+      "cluster_id": "C44",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 296,
+      "title": "Контроль подписания актов по цепочке участников",
+      "cluster_id": "C45",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 297,
+      "title": "Цифровой punch-list сдачи электроустановки",
+      "cluster_id": "C45",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 298,
+      "title": "AI-проверка качества фотофиксации скрытых работ",
+      "cluster_id": "C44",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 299,
+      "title": "Автопакет документов на ввод/допуск объекта",
+      "cluster_id": "C45",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 300,
+      "title": "Гарантийный цифровой двойник объекта после сдачи",
+      "cluster_id": "C45",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 301,
+      "title": "AI-квалификация тендера по технической реализуемости и марже",
+      "cluster_id": "C46",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 302,
+      "title": "Скоринг вероятности участия/победы до расчёта сметы",
+      "cluster_id": "C46",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 303,
+      "title": "Автокарта требований тендера с ответственными",
+      "cluster_id": "C46",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 304,
+      "title": "Поиск скрытых коммерческих рисков в договоре закупки",
+      "cluster_id": "C46",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 305,
+      "title": "AI-сравнение ТЗ тендера с компетенциями компании",
+      "cluster_id": "C46",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 306,
+      "title": "Рекомендация bid/no-bid с объяснением",
+      "cluster_id": "C46",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 307,
+      "title": "Автосбор clarification questions заказчику",
+      "cluster_id": "C46",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 308,
+      "title": "Генератор технической части тендерного предложения",
+      "cluster_id": "C46",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 309,
+      "title": "Проверка заявки на полноту перед отправкой",
+      "cluster_id": "C46",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 310,
+      "title": "База проигранных тендеров с анализом причин",
+      "cluster_id": "C46",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 311,
+      "title": "Win-loss intelligence по конкурентам и ценам",
+      "cluster_id": "C46",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 312,
+      "title": "Мониторинг будущих объектов по разрешениям/инвестпрограммам",
+      "cluster_id": "C48",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 313,
+      "title": "Trigger-based CRM: изменение проекта → повод для контакта",
+      "cluster_id": "C48",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 314,
+      "title": "AI-account plan по крупному промышленному заказчику",
+      "cluster_id": "C48",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 315,
+      "title": "Рекомендатор следующего шага продавцу по сделке",
+      "cluster_id": "C48",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 316,
+      "title": "Калькулятор ожидаемой маржи с вероятностью допработ",
+      "cluster_id": "C48",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 317,
+      "title": "Автоподготовка технического pre-sales brief инженеру",
+      "cluster_id": "C47",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 318,
+      "title": "RFP-to-solution: из ТЗ в концепцию решения",
+      "cluster_id": "C47",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 319,
+      "title": "Proposal configurator из повторяемых модулей",
+      "cluster_id": "C47",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 320,
+      "title": "Post-sale expansion radar по установленному оборудованию клиента",
+      "cluster_id": "C48",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 321,
+      "title": "AI-нормализация спецификаций разных производителей",
+      "cluster_id": "C49",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 322,
+      "title": "Автопоиск дефицитных позиций в BOM",
+      "cluster_id": "C49",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 323,
+      "title": "Прогноз lead time критичного оборудования",
+      "cluster_id": "C49",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 324,
+      "title": "Supplier risk score по срокам, качеству и зависимости от страны",
+      "cluster_id": "C49",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 325,
+      "title": "Подбор эквивалентов с evidence по техническим параметрам",
+      "cluster_id": "C49",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 326,
+      "title": "Автопроверка сертификатов и сроков их действия",
+      "cluster_id": "C49",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 327,
+      "title": "Сравнение total landed cost поставщиков",
+      "cluster_id": "C49",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 328,
+      "title": "Контроль валютного риска по длинным поставкам",
+      "cluster_id": "C50",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 329,
+      "title": "Прогноз дефицита кабеля/автоматики по pipeline проектов",
+      "cluster_id": "C50",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 330,
+      "title": "Автосоздание RFQ нескольким поставщикам",
+      "cluster_id": "C49",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 331,
+      "title": "AI-сверка ответов поставщиков с ТЗ",
+      "cluster_id": "C49",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 332,
+      "title": "Оптимизация заказа кабеля по барабанам между объектами",
+      "cluster_id": "C50",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 333,
+      "title": "Кросс-проектный marketplace неликвидов компании",
+      "cluster_id": "C50",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 334,
+      "title": "Serial number tracking оборудования от поставки до монтажа",
+      "cluster_id": "C50",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 335,
+      "title": "Фото-приёмка оборудования с распознаванием повреждений",
+      "cluster_id": "C50",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 336,
+      "title": "Автоформирование входного контроля из паспорта изделия",
+      "cluster_id": "C49",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 337,
+      "title": "Конфигуратор НКУ/щита с BOM и себестоимостью",
+      "cluster_id": "C51",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 338,
+      "title": "Оптимизация раскроя шин и кабель-каналов в щитовом производстве",
+      "cluster_id": "C51",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 339,
+      "title": "Цифровая маршрутная карта сборки щита",
+      "cluster_id": "C51",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 340,
+      "title": "Remote FAT с автоматической фиксацией результатов испытаний",
+      "cluster_id": "C51",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 341,
+      "title": "Dynamic competency matrix для допуска к конкретной работе",
+      "cluster_id": "C52",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 342,
+      "title": "Автоблокировка назначения сотрудника без нужного допуска",
+      "cluster_id": "C52",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 343,
+      "title": "AI-конструктор целевого инструктажа под конкретную задачу",
+      "cluster_id": "C52",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 344,
+      "title": "Микрообучение после выявленного нарушения",
+      "cluster_id": "C52",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 345,
+      "title": "Персональный тренажёр по ошибкам сотрудника",
+      "cluster_id": "C53",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 346,
+      "title": "Сценарные тренировки по аварийным ситуациям с AI-инструктором",
+      "cluster_id": "C53",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 347,
+      "title": "Simulated switching coach без доступа к реальному управлению",
+      "cluster_id": "C53",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 348,
+      "title": "Контроль усталости/переработок в графике бригад",
+      "cluster_id": "C54",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 349,
+      "title": "Risk-based план поведенческих аудитов безопасности",
+      "cluster_id": "C54",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 350,
+      "title": "Near-miss intelligence: анализ почти-происшествий",
+      "cluster_id": "C54",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 351,
+      "title": "Автоанонимизация сообщений о небезопасных условиях",
+      "cluster_id": "C54",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 352,
+      "title": "Карта повторяющихся опасностей по объектам",
+      "cluster_id": "C54",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 353,
+      "title": "AI-проверка JSA/JHA перед работой",
+      "cluster_id": "C52",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 354,
+      "title": "Permit-to-work conflict detector между бригадами",
+      "cluster_id": "C52",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 355,
+      "title": "Контроль simultaneous operations на одном объекте",
+      "cluster_id": "C52",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 356,
+      "title": "План спасения/эвакуации под конкретную работу",
+      "cluster_id": "C54",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 357,
+      "title": "AR-проверка зоны работ перед допуском",
+      "cluster_id": "C52",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 358,
+      "title": "Видеоанализ критических шагов обучения без биометрической идентификации",
+      "cluster_id": "C53",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 359,
+      "title": "Skill decay monitor для редко выполняемых операций",
+      "cluster_id": "C53",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 360,
+      "title": "Knowledge succession plan для уходящих экспертов",
+      "cluster_id": "C53",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 361,
+      "title": "Project margin at completion forecast",
+      "cluster_id": "C55",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 362,
+      "title": "Прогноз кассового разрыва по каждому объекту",
+      "cluster_id": "C55",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 363,
+      "title": "Earned Value dashboard для электромонтажного проекта",
+      "cluster_id": "C55",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 364,
+      "title": "AI-раннее предупреждение о перерасходе сметы",
+      "cluster_id": "C55",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 365,
+      "title": "Change-order detector из переписки и RFI",
+      "cluster_id": "C56",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 366,
+      "title": "Автосбор доказательств для допработ",
+      "cluster_id": "C56",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 367,
+      "title": "Калькулятор стоимости задержки заказчика",
+      "cluster_id": "C56",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 368,
+      "title": "Claims assistant для претензионной работы",
+      "cluster_id": "C56",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 369,
+      "title": "Контроль notice periods по договору",
+      "cluster_id": "C56",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 370,
+      "title": "Автопроверка банковских гарантий и сроков",
+      "cluster_id": "C57",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 371,
+      "title": "Прогноз удержаний/гарантийных платежей",
+      "cluster_id": "C57",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 372,
+      "title": "Сверка закупок с бюджетом и фактом монтажа",
+      "cluster_id": "C55",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 373,
+      "title": "AI-поиск двойной оплаты/дублирующих счетов",
+      "cluster_id": "C57",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 374,
+      "title": "Автопроверка субподрядных актов по объёмам",
+      "cluster_id": "C57",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 375,
+      "title": "Cost-to-complete forecast по объекту",
+      "cluster_id": "C55",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 376,
+      "title": "Portfolio cash-flow по всем стройкам",
+      "cluster_id": "C55",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 377,
+      "title": "Risk-adjusted bid margin calculator",
+      "cluster_id": "C55",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 378,
+      "title": "Сценарии make/buy/subcontract для работ",
+      "cluster_id": "C56",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 379,
+      "title": "Контроль рентабельности сервисных контрактов",
+      "cluster_id": "C55",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 380,
+      "title": "Автоподготовка monthly project review для собственника",
+      "cluster_id": "C57",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 381,
+      "title": "Regulatory change radar по энергетике и строительству",
+      "cluster_id": "C58",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 382,
+      "title": "Impact analysis нового НПА на локальные документы компании",
+      "cluster_id": "C59",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 383,
+      "title": "Автосписок инструкций, которые нужно пересмотреть",
+      "cluster_id": "C59",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 384,
+      "title": "Граф связей нормативов, стандартов и внутренних приказов",
+      "cluster_id": "C58",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 385,
+      "title": "Версионный реестр требований с датами действия",
+      "cluster_id": "C58",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 386,
+      "title": "AI-answer с обязательной ссылкой на пункт и редакцию",
+      "cluster_id": "C58",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 387,
+      "title": "Conflict detector между внутренней инструкцией и новой нормой",
+      "cluster_id": "C59",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 388,
+      "title": "Нормативный diff с классификацией значимости изменений",
+      "cluster_id": "C59",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 389,
+      "title": "Контроль лицензий/прав на используемые нормативные тексты",
+      "cluster_id": "C60",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 390,
+      "title": "Curator workflow для публикации новой редакции",
+      "cluster_id": "C58",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 391,
+      "title": "Evidence pack для внутреннего аудита соответствия",
+      "cluster_id": "C59",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 392,
+      "title": "Обучающий digest изменений только для затронутых ролей",
+      "cluster_id": "C59",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 393,
+      "title": "FAQ, автоматически обновляемый после утверждения изменений",
+      "cluster_id": "C58",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 394,
+      "title": "Поиск требований по типу оборудования/работы",
+      "cluster_id": "C58",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 395,
+      "title": "Матрица «требование → процесс → документ → ответственный»",
+      "cluster_id": "C59",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 396,
+      "title": "Compliance debt dashboard",
+      "cluster_id": "C60",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 397,
+      "title": "AI-проверка шаблонов документов на устаревшие ссылки",
+      "cluster_id": "C59",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 398,
+      "title": "Контроль локальных регламентов между филиалами",
+      "cluster_id": "C59",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 399,
+      "title": "Semantic search по lessons learned проектов",
+      "cluster_id": "C58",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 400,
+      "title": "Corporate engineering copilot на внутренних стандартах",
+      "cluster_id": "C58",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 401,
+      "title": "Автоинвентаризация OT-активов по сетевому трафику",
+      "cluster_id": "C61",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 402,
+      "title": "Карта зависимостей PLC/IED/SCADA/серверов",
+      "cluster_id": "C61",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 403,
+      "title": "Baseline нормального OT-трафика и поиск аномалий",
+      "cluster_id": "C62",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 404,
+      "title": "Контроль несанкционированных изменений конфигураций IED",
+      "cluster_id": "C61",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 405,
+      "title": "Firmware exposure tracker по оборудованию",
+      "cluster_id": "C61",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 406,
+      "title": "SBOM-реестр для цифровых подстанций и OT-шлюзов",
+      "cluster_id": "C61",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 407,
+      "title": "Supply-chain cyber risk score для энергетического оборудования",
+      "cluster_id": "C61",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 408,
+      "title": "Автопроверка удалённого доступа подрядчиков",
+      "cluster_id": "C62",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 409,
+      "title": "JIT-доступ к OT с автоматическим отзывом",
+      "cluster_id": "C62",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 410,
+      "title": "Сеансовая запись и summarization действий сервисного инженера",
+      "cluster_id": "C62",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 411,
+      "title": "Контроль несогласованных USB/portable media операций",
+      "cluster_id": "C62",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 412,
+      "title": "AI-triage OT-событий SOC без автоматического воздействия",
+      "cluster_id": "C62",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 413,
+      "title": "Prompt-injection scanner для отраслевого RAG",
+      "cluster_id": "C62",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 414,
+      "title": "Data lineage от измерения до управленческого отчёта",
+      "cluster_id": "C61",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 415,
+      "title": "Quality score телеметрии по источникам",
+      "cluster_id": "C61",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 416,
+      "title": "Model registry для AI-моделей энергетической компании",
+      "cluster_id": "C63",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 417,
+      "title": "AI action ledger: кто/что/на основании чего предложил",
+      "cluster_id": "C63",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 418,
+      "title": "Red-team тесты AI до допуска к OT-сценариям",
+      "cluster_id": "C63",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 419,
+      "title": "Digital sandbox для проверки agentic AI на копии процессов",
+      "cluster_id": "C63",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 420,
+      "title": "Policy engine: какие действия AI разрешены, требуют approval или запрещены",
+      "cluster_id": "C63",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 421,
+      "title": "Climate risk score подстанций и линий на 10–20 лет",
+      "cluster_id": "C64",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 422,
+      "title": "Flood exposure map энергетических объектов",
+      "cluster_id": "C64",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 423,
+      "title": "Wildfire/пожарный risk map для ЛЭП и подстанций",
+      "cluster_id": "C64",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 424,
+      "title": "Гололёдный risk forecast по пролётам",
+      "cluster_id": "C64",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 425,
+      "title": "Heatwave derating прогноз трансформаторов и кабелей",
+      "cluster_id": "C64",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 426,
+      "title": "Storm hardening prioritization по benefit/cost",
+      "cluster_id": "C64",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 427,
+      "title": "Карта критических потребителей для восстановления после ЧС",
+      "cluster_id": "C65",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 428,
+      "title": "Resilience microgrid planner для больниц/водоканалов/связи",
+      "cluster_id": "C65",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 429,
+      "title": "Pre-positioning аварийных ресурсов перед экстремальной погодой",
+      "cluster_id": "C65",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 430,
+      "title": "Прогноз доступности дорог для аварийных бригад",
+      "cluster_id": "C64",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 431,
+      "title": "Satellite damage assessment после шторма",
+      "cluster_id": "C64",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 432,
+      "title": "Автооценка ущерба после затопления оборудования",
+      "cluster_id": "C64",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 433,
+      "title": "Resilience score цепочки поставок критичных компонентов",
+      "cluster_id": "C65",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 434,
+      "title": "Сценарий длительного дефицита трансформаторов",
+      "cluster_id": "C65",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 435,
+      "title": "Emergency spare sharing platform между организациями",
+      "cluster_id": "C65",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 436,
+      "title": "План black-start критической площадки",
+      "cluster_id": "C65",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 437,
+      "title": "Карта зависимости критической инфраструктуры от электроснабжения",
+      "cluster_id": "C66",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 438,
+      "title": "Stress-test сетевых инвестпланов под климатические сценарии",
+      "cluster_id": "C66",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 439,
+      "title": "Автоподготовка emergency playbook по типу угрозы",
+      "cluster_id": "C65",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 440,
+      "title": "Post-event resilience review с обновлением стандартов",
+      "cluster_id": "C65",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 441,
+      "title": "Grid-readiness assessment площадки под дата-центр",
+      "cluster_id": "C67",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 442,
+      "title": "AI-прогноз профиля нагрузки дата-центра по стадиям ввода",
+      "cluster_id": "C67",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 443,
+      "title": "Capacity reservation optimizer для очереди дата-центров",
+      "cluster_id": "C67",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 444,
+      "title": "Non-firm connection design для дата-центра",
+      "cluster_id": "C67",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 445,
+      "title": "Гибридная схема grid+BESS+ДГУ для ограничения пиковой мощности",
+      "cluster_id": "C68",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 446,
+      "title": "Оптимизация PUE с учётом ограничений энергосистемы",
+      "cluster_id": "C68",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 447,
+      "title": "Workload shifting по сигналу дефицита мощности",
+      "cluster_id": "C68",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 448,
+      "title": "Demand response controller дата-центра без нарушения SLA",
+      "cluster_id": "C69",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 449,
+      "title": "Battery UPS fleet как ресурс гибкости",
+      "cluster_id": "C69",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 450,
+      "title": "Вторичное использование тепла дата-центра: feasibility calculator",
+      "cluster_id": "C69",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 451,
+      "title": "Power quality monitoring для AI-кластеров",
+      "cluster_id": "C68",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 452,
+      "title": "Раннее обнаружение риска перегрузки шин/PDUs",
+      "cluster_id": "C68",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 453,
+      "title": "Цифровой twin электроснабжения дата-центра",
+      "cluster_id": "C68",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 454,
+      "title": "Автосценарии отказа N+1/N+2 питания",
+      "cluster_id": "C68",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 455,
+      "title": "CAPEX comparison: новое сетевое усиление vs BESS/гибкость",
+      "cluster_id": "C67",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 456,
+      "title": "Контроль энергопотребления AI-задач по tenant/project",
+      "cluster_id": "C69",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 457,
+      "title": "Carbon/energy-aware AI job scheduler",
+      "cluster_id": "C69",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 458,
+      "title": "Прогноз подключения крупных электролизёров/тепловых насосов",
+      "cluster_id": "C67",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 459,
+      "title": "Энергетический pre-design для высокомощных зарядных хабов",
+      "cluster_id": "C67",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 460,
+      "title": "Large-load portfolio planner для региональной сети",
+      "cluster_id": "C67",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 461,
+      "title": "AI-Chief of Staff директора энергетической компании",
+      "cluster_id": "C70",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 462,
+      "title": "Ежедневный operating brief из CRM, проектов, аварий и финансов",
+      "cluster_id": "C70",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 463,
+      "title": "Meeting-to-actions с контролем исполнения",
+      "cluster_id": "C71",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 464,
+      "title": "Agent для входящей почты с маршрутизацией по процессам",
+      "cluster_id": "C70",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 465,
+      "title": "AI-диспетчер внутренних заявок между отделами",
+      "cluster_id": "C71",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 466,
+      "title": "Project kickoff agent: договор → план → роли → риски → задачи",
+      "cluster_id": "C71",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 467,
+      "title": "Procurement agent с human approval",
+      "cluster_id": "C71",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 468,
+      "title": "Tender agent с bid/no-bid gate",
+      "cluster_id": "C70",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 469,
+      "title": "Contract agent с контролем обязательств",
+      "cluster_id": "C71",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 470,
+      "title": "Finance reconciliation agent для проектной компании",
+      "cluster_id": "C71",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 471,
+      "title": "Knowledge curator agent для инженерной базы",
+      "cluster_id": "C72",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 472,
+      "title": "Compliance agent с human publication gate",
+      "cluster_id": "C72",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 473,
+      "title": "Field-report agent: фото/голос → структурированный отчёт",
+      "cluster_id": "C71",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 474,
+      "title": "Service desk agent для оборудования клиентов",
+      "cluster_id": "C71",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 475,
+      "title": "Customer success agent по сервисным контрактам",
+      "cluster_id": "C70",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 476,
+      "title": "Management Q&A по данным компании с evidence",
+      "cluster_id": "C70",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 477,
+      "title": "AI-аудитор качества данных CRM/ERP",
+      "cluster_id": "C70",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 478,
+      "title": "AI-поиск процессов-кандидатов на автоматизацию",
+      "cluster_id": "C71",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 479,
+      "title": "Process mining → автоматическое AS-IS draft",
+      "cluster_id": "C71",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 480,
+      "title": "ROI tracker: обещанный эффект → фактический эффект после внедрения",
+      "cluster_id": "C72",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 481,
+      "title": "Transformer Health-as-a-Service",
+      "cluster_id": "C73",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 482,
+      "title": "Power Quality-as-a-Service для промышленности",
+      "cluster_id": "C73",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 483,
+      "title": "DLR-as-a-Service без продажи собственного железа",
+      "cluster_id": "C73",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 484,
+      "title": "Remote Substation Monitoring-as-a-Service",
+      "cluster_id": "C73",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 485,
+      "title": "Compliance-as-a-Service для электрохозяйства",
+      "cluster_id": "C74",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 486,
+      "title": "Executive Documentation-as-a-Service для монтажников",
+      "cluster_id": "C74",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 487,
+      "title": "Commissioning Documentation-as-a-Service для ЭТЛ/ПНР",
+      "cluster_id": "C74",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 488,
+      "title": "Tender Intelligence-as-a-Service для электротехнических подрядчиков",
+      "cluster_id": "C74",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 489,
+      "title": "Energy Flexibility-as-a-Service для промышленного потребителя",
+      "cluster_id": "C73",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 490,
+      "title": "BESS Optimization-as-a-Service",
+      "cluster_id": "C73",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 491,
+      "title": "Electrical Asset Passport managed service",
+      "cluster_id": "C73",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 492,
+      "title": "OT Cyber Hygiene managed service для небольших предприятий",
+      "cluster_id": "C73",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 493,
+      "title": "Engineering Knowledge managed service",
+      "cluster_id": "C74",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 494,
+      "title": "Regulatory Change managed service",
+      "cluster_id": "C74",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 495,
+      "title": "OEM scout для китайского электротехнического оборудования",
+      "cluster_id": "C75",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 496,
+      "title": "EAEU certification workflow as a service",
+      "cluster_id": "C75",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 497,
+      "title": "Retrofit sensor kit + monthly analytics",
+      "cluster_id": "C73",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 498,
+      "title": "White-label AI кабинет для аутсорсера электрохозяйства",
+      "cluster_id": "C75",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 499,
+      "title": "Shared AI back-office для 10–20 небольших ЭТЛ/монтажников",
+      "cluster_id": "C75",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v2",
+      "source_id": 500,
+      "title": "Outcome-based contract: оплата за подтверждённо высвобождённые часы/снижение потерь",
+      "cluster_id": "C74",
+      "assignment": "curated_pass_v2"
+    },
+    {
+      "source": "v1",
+      "source_id": 1,
+      "title": "Электронный оперативный журнал",
+      "cluster_id": "C01",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 2,
+      "title": "Голосовой ввод в оперативный журнал",
+      "cluster_id": "C01",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 3,
+      "title": "Черновик бланка переключений",
+      "cluster_id": "C02",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 4,
+      "title": "Автопроверка бланков и программ переключений",
+      "cluster_id": "C02",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 5,
+      "title": "Аудит диспетчерских переговоров",
+      "cluster_id": "C01",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 6,
+      "title": "Мгновенные оповещения об авариях",
+      "cluster_id": "C03",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 7,
+      "title": "Автоинформирование потребителей об отключениях",
+      "cluster_id": "C02",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 8,
+      "title": "Группировка сообщений «нет света» в инциденты",
+      "cluster_id": "C02",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 9,
+      "title": "Прогноз аварийности по погоде",
+      "cluster_id": "C03",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 10,
+      "title": "Диспетчеризация аварийных бригад на карте",
+      "cluster_id": "C02",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 11,
+      "title": "Черновик акта расследования аварии",
+      "cluster_id": "C01",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 12,
+      "title": "Аналитика причин технологических нарушений",
+      "cluster_id": "C01",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 13,
+      "title": "Сводка при приёме-сдаче смены",
+      "cluster_id": "C01",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 14,
+      "title": "Реестр заземлений и плакатов",
+      "cluster_id": "C03",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 15,
+      "title": "Реестр заявок на вывод в ремонт",
+      "cluster_id": "C02",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 16,
+      "title": "Электронные паспорта оборудования с QR",
+      "cluster_id": "C04",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 17,
+      "title": "Мобильные обходы и осмотры",
+      "cluster_id": "C04",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 18,
+      "title": "Журнал дефектов с ИИ-классификацией",
+      "cluster_id": "C04",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 19,
+      "title": "Автопостроение графиков ТО и ремонтов",
+      "cluster_id": "C05",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 20,
+      "title": "Расчёт индекса технического состояния",
+      "cluster_id": "C04",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 21,
+      "title": "Риск-ориентированная ремонтная программа",
+      "cluster_id": "C05",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 22,
+      "title": "Прогноз отказов по истории дефектов",
+      "cluster_id": "C05",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 23,
+      "title": "Учёт коммутационного ресурса выключателей",
+      "cluster_id": "C05",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 24,
+      "title": "Мобильное приложение выездного персонала",
+      "cluster_id": "C06",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 25,
+      "title": "Дефектная ведомость и смета из осмотра",
+      "cluster_id": "C06",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 26,
+      "title": "Оцифровка технического архива",
+      "cluster_id": "C04",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 27,
+      "title": "Показатели надёжности SAIDI и SAIFI",
+      "cluster_id": "C05",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 28,
+      "title": "Сборка ремонтов в одно окно отключения",
+      "cluster_id": "C05",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 29,
+      "title": "Проблемные серии оборудования",
+      "cluster_id": "C04",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 30,
+      "title": "Цифровой двойник сети",
+      "cluster_id": "C04",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 31,
+      "title": "Автоанализ тепловизионных снимков",
+      "cluster_id": "C18",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 32,
+      "title": "Интерпретация ХАРГ трансформаторного масла",
+      "cluster_id": "C16",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 33,
+      "title": "Классификация частичных разрядов",
+      "cluster_id": "C18",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 34,
+      "title": "Беспроводные датчики температуры контактов",
+      "cluster_id": "C17",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 35,
+      "title": "Телемониторинг ТП",
+      "cluster_id": "C17",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 36,
+      "title": "Вибродиагностика двигателей и насосов",
+      "cluster_id": "C18",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 37,
+      "title": "Расчёт старения изоляции трансформатора",
+      "cluster_id": "C16",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 38,
+      "title": "Мониторинг аккумуляторных батарей ПС",
+      "cluster_id": "C17",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 39,
+      "title": "Отчёты по качеству электроэнергии",
+      "cluster_id": "C18",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 40,
+      "title": "Единая база испытаний с трендами",
+      "cluster_id": "C17",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 41,
+      "title": "Контроль давления элегаза",
+      "cluster_id": "C17",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 42,
+      "title": "Чтение приборов и положений аппаратов с камер",
+      "cluster_id": "C17",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 43,
+      "title": "Остаточный ресурс силовых трансформаторов",
+      "cluster_id": "C16",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 44,
+      "title": "Фото шильдика → объём испытаний",
+      "cluster_id": "C18",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 45,
+      "title": "Ультразвуковая диагностика разрядов",
+      "cluster_id": "C18",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 46,
+      "title": "Облёт ВЛ дронами с ИИ-разбором",
+      "cluster_id": "C07",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 47,
+      "title": "Спутниковый контроль просек",
+      "cluster_id": "C08",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 48,
+      "title": "Мониторинг и прогноз гололёда",
+      "cluster_id": "C08",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 49,
+      "title": "Зона поиска повреждения по индикаторам КЗ",
+      "cluster_id": "C08",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 50,
+      "title": "Инвентаризация опор по фото",
+      "cluster_id": "C07",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 51,
+      "title": "Поиск безучётных подвесов на опорах",
+      "cluster_id": "C07",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 52,
+      "title": "Онлайн-согласование работ в охранных зонах",
+      "cluster_id": "C09",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 53,
+      "title": "Контроль земляных работ у кабельных линий",
+      "cluster_id": "C07",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 54,
+      "title": "ГИС кабельных трасс",
+      "cluster_id": "C08",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 55,
+      "title": "Анализ грозовых отключений",
+      "cluster_id": "C08",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 56,
+      "title": "Нарушения габаритов по лидару",
+      "cluster_id": "C07",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 57,
+      "title": "Повреждаемость КЛ и приоритет перекладки",
+      "cluster_id": "C07",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 58,
+      "title": "Библиотека рефлектограмм",
+      "cluster_id": "C09",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 59,
+      "title": "Реестр земельных прав под объектами",
+      "cluster_id": "C08",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 60,
+      "title": "Сообщения жителей об опасных дефектах",
+      "cluster_id": "C07",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 61,
+      "title": "Автоанализ осциллограмм",
+      "cluster_id": "C20",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 62,
+      "title": "Определение места повреждения по осциллограммам",
+      "cluster_id": "C20",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 63,
+      "title": "База уставок с контролем версий",
+      "cluster_id": "C19",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 64,
+      "title": "Расчёт уставок защит 6–10 кВ",
+      "cluster_id": "C19",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 65,
+      "title": "Карты селективности",
+      "cluster_id": "C19",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 66,
+      "title": "Проверка SCD- и ICD-файлов IEC 61850",
+      "cluster_id": "C19",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 67,
+      "title": "Программы и протоколы проверки РЗА",
+      "cluster_id": "C21",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 68,
+      "title": "Графики обслуживания устройств РЗА",
+      "cluster_id": "C21",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 69,
+      "title": "Анализ правильности работы РЗА",
+      "cluster_id": "C20",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 70,
+      "title": "Разбор журналов событий терминалов",
+      "cluster_id": "C20",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 71,
+      "title": "Детектор недостоверной телеметрии",
+      "cluster_id": "C20",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 72,
+      "title": "Сверка базы сигналов телемеханики",
+      "cluster_id": "C19",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 73,
+      "title": "Мониторинг каналов телемеханики",
+      "cluster_id": "C20",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 74,
+      "title": "ИИ-справочник по терминалам РЗА",
+      "cluster_id": "C21",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 75,
+      "title": "Резервные копии конфигураций",
+      "cluster_id": "C19",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 76,
+      "title": "Выявление хищений по данным АСКУЭ",
+      "cluster_id": "C22",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 77,
+      "title": "Ежедневные балансы ТП и фидеров",
+      "cluster_id": "C22",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 78,
+      "title": "Выявление майнинга",
+      "cluster_id": "C22",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 79,
+      "title": "Показания счётчиков по фото",
+      "cluster_id": "C24",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 80,
+      "title": "Мониторинг приборов учёта",
+      "cluster_id": "C24",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 81,
+      "title": "Приоритет и маршруты проверок",
+      "cluster_id": "C22",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 82,
+      "title": "Мобильный акт проверки прибора учёта",
+      "cluster_id": "C22",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 83,
+      "title": "Расчёт безучётного потребления и претензии",
+      "cluster_id": "C22",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 84,
+      "title": "Технические потери 0,4–10 кВ",
+      "cluster_id": "C11",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 85,
+      "title": "Несимметрия фаз на ТП",
+      "cluster_id": "C11",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 86,
+      "title": "Очерёдность установки умных счётчиков",
+      "cluster_id": "C24",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 87,
+      "title": "Сверка объёмов со смежными сетями",
+      "cluster_id": "C22",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 88,
+      "title": "Проверка и восстановление данных учёта",
+      "cluster_id": "C24",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 89,
+      "title": "Привязка абонентов к фазе и ТП по профилям",
+      "cluster_id": "C11",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 90,
+      "title": "Контроль сроков поверки приборов учёта",
+      "cluster_id": "C24",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 91,
+      "title": "ИИ-бот для абонентов 24/7",
+      "cluster_id": "C70",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 92,
+      "title": "Разбор обращений и черновики ответов",
+      "cluster_id": "C70",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 93,
+      "title": "Речевая аналитика колл-центра",
+      "cluster_id": "C70",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 94,
+      "title": "Скоринг дебиторов",
+      "cluster_id": "C70",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 95,
+      "title": "Уведомления об ограничении и претензии",
+      "cluster_id": "C70",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 96,
+      "title": "Голосовой робот обзвона",
+      "cluster_id": "C70",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 97,
+      "title": "Подбор выгодного тарифа для бизнеса",
+      "cluster_id": "C26",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 98,
+      "title": "Прогноз почасового потребления",
+      "cluster_id": "C26",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 99,
+      "title": "Жалобы на напряжение → замер",
+      "cluster_id": "C26",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 100,
+      "title": "Заявка на техприсоединение с ИИ-проверкой",
+      "cluster_id": "C25",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 101,
+      "title": "Черновик технических условий",
+      "cluster_id": "C25",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 102,
+      "title": "Карта свободной мощности",
+      "cluster_id": "C26",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 103,
+      "title": "Калькулятор платы за присоединение",
+      "cluster_id": "C25",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 104,
+      "title": "Статус заявки в мессенджере",
+      "cluster_id": "C25",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 105,
+      "title": "Предпроверка выполнения ТУ по фото",
+      "cluster_id": "C25",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 106,
+      "title": "Заявки на неисправности по QR",
+      "cluster_id": "C35",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 107,
+      "title": "Генератор документации электрохозяйства",
+      "cluster_id": "C34",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 108,
+      "title": "Самопроверка перед визитом надзора",
+      "cluster_id": "C34",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 109,
+      "title": "Электронные журналы электрохозяйства",
+      "cluster_id": "C34",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 110,
+      "title": "Реестр электроустановок объекта",
+      "cluster_id": "C34",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 111,
+      "title": "Мониторинг ИБП, ДГУ и АВР",
+      "cluster_id": "C36",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 112,
+      "title": "Пробные пуски ДГУ и учёт топлива",
+      "cluster_id": "C36",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 113,
+      "title": "Инструкции по эксплуатации под объект",
+      "cluster_id": "C34",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 114,
+      "title": "Однолинейная схема по фото щита",
+      "cluster_id": "C35",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 115,
+      "title": "Перевыставление электроэнергии арендаторам",
+      "cluster_id": "C36",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 116,
+      "title": "Контроль мощности арендаторов",
+      "cluster_id": "C36",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 117,
+      "title": "Календарь обязательных работ",
+      "cluster_id": "C34",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 118,
+      "title": "Кабинет сервисной компании",
+      "cluster_id": "C36",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 119,
+      "title": "Ежемесячный отчёт клиенту",
+      "cluster_id": "C36",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 120,
+      "title": "Акт осмотра с фото → предписание",
+      "cluster_id": "C35",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 121,
+      "title": "Мобильный ввод замеров",
+      "cluster_id": "C37",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 122,
+      "title": "Импорт данных с приборов",
+      "cluster_id": "C37",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 123,
+      "title": "Технический отчёт ЭТЛ одной кнопкой",
+      "cluster_id": "C37",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 124,
+      "title": "Проверка петли фаза-ноль по характеристикам",
+      "cluster_id": "C37",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 125,
+      "title": "ИИ-контроль протоколов",
+      "cluster_id": "C37",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 126,
+      "title": "Реестр средств измерений",
+      "cluster_id": "C37",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 127,
+      "title": "Напоминания о повторных испытаниях",
+      "cluster_id": "C39",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 128,
+      "title": "Испытания СИЗ клиентов",
+      "cluster_id": "C39",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 129,
+      "title": "Планирование выездов лаборатории",
+      "cluster_id": "C39",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 130,
+      "title": "Приведение результатов к температуре",
+      "cluster_id": "C37",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 131,
+      "title": "Чек-листы и недоделки ПНР",
+      "cluster_id": "C38",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 132,
+      "title": "Документы для регистрации лаборатории",
+      "cluster_id": "C38",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 133,
+      "title": "ИИ-справочник по нормам испытаний",
+      "cluster_id": "C38",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 134,
+      "title": "Онлайн-заказ испытаний",
+      "cluster_id": "C39",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 135,
+      "title": "Подписание протоколов клиентом онлайн",
+      "cluster_id": "C39",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 136,
+      "title": "Расчёт нагрузок по таблице потребителей",
+      "cluster_id": "C40",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 137,
+      "title": "Выбор кабелей для всех линий сразу",
+      "cluster_id": "C40",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 138,
+      "title": "Токи КЗ в сетях 0,4 кВ",
+      "cluster_id": "C40",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 139,
+      "title": "Однолинейная схема щита из таблицы",
+      "cluster_id": "C40",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 140,
+      "title": "Спецификация и кабельный журнал из схем",
+      "cluster_id": "C40",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 141,
+      "title": "Автоматизация CAD-рутины",
+      "cluster_id": "C41",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 142,
+      "title": "ИИ-нормоконтроль",
+      "cluster_id": "C42",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 143,
+      "title": "ИИ-ревью проектных решений",
+      "cluster_id": "C42",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 144,
+      "title": "Мониторинг изменений нормативки",
+      "cluster_id": "C59",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 145,
+      "title": "Черновик пояснительной записки",
+      "cluster_id": "C42",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 146,
+      "title": "Трекер замечаний экспертизы",
+      "cluster_id": "C42",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 147,
+      "title": "Требования из ТЗ и ТУ в чек-лист",
+      "cluster_id": "C42",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 148,
+      "title": "Опросные листы на оборудование",
+      "cluster_id": "C41",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 149,
+      "title": "Сравнение ревизий чертежей",
+      "cluster_id": "C42",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 150,
+      "title": "Авторасстановка розеток и светильников",
+      "cluster_id": "C41",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 151,
+      "title": "Спецификации из PDF и сканов в Excel",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 152,
+      "title": "Ведомость объёмов работ из проекта",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 153,
+      "title": "ИИ-подбор расценок",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 154,
+      "title": "Подбор кодов ресурсов",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 155,
+      "title": "ИИ-проверка смет",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 156,
+      "title": "Анализ сметы заказчика",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 157,
+      "title": "Цена электромонтажа по плану квартиры",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 158,
+      "title": "Калькулятор электромонтажа на сайте",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 159,
+      "title": "Справочник цен из прайсов поставщиков",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 160,
+      "title": "Переоценка КП по цене меди",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 161,
+      "title": "КП из сметы в трёх вариантах",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 162,
+      "title": "Нормативы по фактическим объектам",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 163,
+      "title": "Контроль маржи и скидок",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 164,
+      "title": "Цена договора на обслуживание",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 165,
+      "title": "Конвертация и индексация смет",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 166,
+      "title": "Мониторинг тендеров с ИИ-отбором",
+      "cluster_id": "C46",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 167,
+      "title": "Выжимка тендерной документации",
+      "cluster_id": "C46",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 168,
+      "title": "Сборка тендерной заявки",
+      "cluster_id": "C46",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 169,
+      "title": "Цена и конкуренты по истории торгов",
+      "cluster_id": "C46",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 170,
+      "title": "ИИ-консультант на сайте и в мессенджерах",
+      "cluster_id": "C48",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 171,
+      "title": "ИИ-приём входящих заявок",
+      "cluster_id": "C47",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 172,
+      "title": "Воронка «замер → КП → договор → монтаж → сервис»",
+      "cluster_id": "C48",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 173,
+      "title": "Касания по отправленным КП",
+      "cluster_id": "C48",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 174,
+      "title": "Речевая аналитика звонков",
+      "cluster_id": "C48",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 175,
+      "title": "Реактивация клиентской базы",
+      "cluster_id": "C48",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 176,
+      "title": "Лиды из разрешений на строительство",
+      "cluster_id": "C48",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 177,
+      "title": "Подбор кейсов под заказчика",
+      "cluster_id": "C47",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 178,
+      "title": "Онлайн-запись на замер",
+      "cluster_id": "C47",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 179,
+      "title": "Анкеты аккредитации у генподрядчиков",
+      "cluster_id": "C46",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 180,
+      "title": "Отзывы и NPS после сдачи",
+      "cluster_id": "C48",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 181,
+      "title": "Ежедневный отчёт бригады → ИИ-сводка",
+      "cluster_id": "C44",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 182,
+      "title": "Голосовые заметки прораба → задачи",
+      "cluster_id": "C44",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 183,
+      "title": "Автосортировка фотофиксации",
+      "cluster_id": "C44",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 184,
+      "title": "ИИ-контроль качества монтажа по фото",
+      "cluster_id": "C44",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 185,
+      "title": "Подсчёт смонтированного по фото",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 186,
+      "title": "Табель по геолокации",
+      "cluster_id": "C44",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 187,
+      "title": "Сдельная зарплата бригад",
+      "cluster_id": "C44",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 188,
+      "title": "Генерация ППР и технологических карт",
+      "cluster_id": "C45",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 189,
+      "title": "Раскрой кабеля по барабанам",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 190,
+      "title": "Контроль расхода кабеля и материалов",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 191,
+      "title": "Учёт простоев и их причин",
+      "cluster_id": "C44",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 192,
+      "title": "График работ с пересчётом",
+      "cluster_id": "C44",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 193,
+      "title": "Назначение бригад по допускам",
+      "cluster_id": "C44",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 194,
+      "title": "Фиксация скрытых трасс",
+      "cluster_id": "C44",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 195,
+      "title": "Прогноз срыва сроков",
+      "cluster_id": "C44",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 196,
+      "title": "Автогенерация АОСР",
+      "cluster_id": "C45",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 197,
+      "title": "Исполнительная документация в XML",
+      "cluster_id": "C45",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 198,
+      "title": "Реестр ИД с контролем полноты",
+      "cluster_id": "C45",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 199,
+      "title": "ИИ-проверка ИД перед сдачей",
+      "cluster_id": "C45",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 200,
+      "title": "Исполнительные схемы",
+      "cluster_id": "C44",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 201,
+      "title": "База сертификатов",
+      "cluster_id": "C45",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 202,
+      "title": "Входной контроль с распознаванием",
+      "cluster_id": "C44",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 203,
+      "title": "Электронный общий журнал работ",
+      "cluster_id": "C44",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 204,
+      "title": "КС-2 и КС-3 из объёмов",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 205,
+      "title": "Сверка КС-2 с проектом и сметой",
+      "cluster_id": "C43",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 206,
+      "title": "Замечания технадзора",
+      "cluster_id": "C44",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 207,
+      "title": "Пакет для допуска в эксплуатацию",
+      "cluster_id": "C45",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 208,
+      "title": "Контроль актов на подписании",
+      "cluster_id": "C45",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 209,
+      "title": "Цифровой паспорт объекта",
+      "cluster_id": "C45",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 210,
+      "title": "Реестр гарантийных обязательств",
+      "cluster_id": "C45",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 211,
+      "title": "Заявка на материалы с объекта",
+      "cluster_id": "C50",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 212,
+      "title": "ИИ-подбор аналогов оборудования",
+      "cluster_id": "C49",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 213,
+      "title": "Сравнение КП поставщиков",
+      "cluster_id": "C49",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 214,
+      "title": "Запрос цен у поставщиков",
+      "cluster_id": "C49",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 215,
+      "title": "Распознавание УПД и накладных",
+      "cluster_id": "C49",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 216,
+      "title": "Нормализация справочника номенклатуры",
+      "cluster_id": "C49",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 217,
+      "title": "Контроль сроков поставок",
+      "cluster_id": "C50",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 218,
+      "title": "Склад по объектам",
+      "cluster_id": "C50",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 219,
+      "title": "Учёт инструмента",
+      "cluster_id": "C50",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 220,
+      "title": "Прогноз потребности в материалах",
+      "cluster_id": "C50",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 221,
+      "title": "Неликвиды и остатки",
+      "cluster_id": "C50",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 222,
+      "title": "Календарь спецтехники",
+      "cluster_id": "C50",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 223,
+      "title": "Путевые листы и ГСМ",
+      "cluster_id": "C50",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 224,
+      "title": "Производство щитов",
+      "cluster_id": "C51",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 225,
+      "title": "Печать маркировки",
+      "cluster_id": "C51",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 226,
+      "title": "Электронный наряд-допуск",
+      "cluster_id": "C52",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 227,
+      "title": "ИИ-проверка наряда-допуска",
+      "cluster_id": "C52",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 228,
+      "title": "Целевые инструктажи в мессенджере",
+      "cluster_id": "C52",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 229,
+      "title": "Бот для сообщений об опасных ситуациях",
+      "cluster_id": "C54",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 230,
+      "title": "Погодные запреты для полевых работ",
+      "cluster_id": "C52",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 231,
+      "title": "Видеоаналитика СИЗ",
+      "cluster_id": "C54",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 232,
+      "title": "Контроль приближения к токоведущим частям",
+      "cluster_id": "C52",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 233,
+      "title": "Умные каски и браслеты",
+      "cluster_id": "C54",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 234,
+      "title": "Учёт СИЗ и электрозащитных средств",
+      "cluster_id": "C52",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 235,
+      "title": "Расследование несчастного случая",
+      "cluster_id": "C54",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 236,
+      "title": "Реестр опасностей и профрисков",
+      "cluster_id": "C54",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 237,
+      "title": "Инструкции по охране труда",
+      "cluster_id": "C53",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 238,
+      "title": "Поведенческие аудиты безопасности",
+      "cluster_id": "C54",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 239,
+      "title": "Работы на высоте и подъёмные сооружения",
+      "cluster_id": "C52",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 240,
+      "title": "Разбор видео с нательных камер",
+      "cluster_id": "C54",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 241,
+      "title": "Реестр удостоверений и допусков",
+      "cluster_id": "C52",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 242,
+      "title": "ИИ-тренажёр к проверке знаний",
+      "cluster_id": "C53",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 243,
+      "title": "Проверка знаний в комиссии",
+      "cluster_id": "C52",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 244,
+      "title": "Лист стажировки и дублирования",
+      "cluster_id": "C52",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 245,
+      "title": "Онбординг-бот",
+      "cluster_id": "C53",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 246,
+      "title": "Скрининг кандидатов",
+      "cluster_id": "C53",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 247,
+      "title": "Практический онлайн-тест кандидатов",
+      "cluster_id": "C53",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 248,
+      "title": "Микрообучение в мессенджере",
+      "cluster_id": "C53",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 249,
+      "title": "Противоаварийные тренировки",
+      "cluster_id": "C53",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 250,
+      "title": "Тренажёр оперативных переключений",
+      "cluster_id": "C53",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 251,
+      "title": "VR- и AR-тренажёры",
+      "cluster_id": "C53",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 252,
+      "title": "Видеобиблиотека технологий с поиском по речи",
+      "cluster_id": "C53",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 253,
+      "title": "Сохранение знаний опытных сотрудников",
+      "cluster_id": "C53",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 254,
+      "title": "Матрица компетенций",
+      "cluster_id": "C53",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 255,
+      "title": "Графики сменности",
+      "cluster_id": "C53",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 256,
+      "title": "Маржа по объектам в реальном времени",
+      "cluster_id": "C55",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 257,
+      "title": "Платёжный календарь и кассовые разрывы",
+      "cluster_id": "C55",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 258,
+      "title": "План-факт по бюджету объекта",
+      "cluster_id": "C55",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 259,
+      "title": "ИИ-анализ договоров",
+      "cluster_id": "C56",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 260,
+      "title": "Реестр договоров и сроков",
+      "cluster_id": "C56",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 261,
+      "title": "Проверка контрагентов",
+      "cluster_id": "C56",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 262,
+      "title": "Контроль оплат по актам",
+      "cluster_id": "C56",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 263,
+      "title": "Претензии и расчёт неустоек",
+      "cluster_id": "C55",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 264,
+      "title": "Авансовые отчёты по фото чеков",
+      "cluster_id": "C57",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 265,
+      "title": "Акты сверки",
+      "cluster_id": "C57",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 266,
+      "title": "Учёт гарантийных удержаний",
+      "cluster_id": "C55",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 267,
+      "title": "Себестоимость часа бригады и техники",
+      "cluster_id": "C55",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 268,
+      "title": "KPI и премии",
+      "cluster_id": "C55",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 269,
+      "title": "Стоимость владения активами",
+      "cluster_id": "C55",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 270,
+      "title": "Тарифная заявка сетевой организации",
+      "cluster_id": "C57",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 271,
+      "title": "Калькулятор солнечной станции",
+      "cluster_id": "C29",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 272,
+      "title": "Раскладка панелей по снимку крыши",
+      "cluster_id": "C29",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 273,
+      "title": "Мониторинг солнечных станций",
+      "cluster_id": "C29",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 274,
+      "title": "Прогноз выработки СЭС и ВЭС",
+      "cluster_id": "C29",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 275,
+      "title": "Выбор мест для зарядных станций",
+      "cluster_id": "C30",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 276,
+      "title": "Мониторинг и сервис зарядных станций",
+      "cluster_id": "C30",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 277,
+      "title": "Энергомониторинг объекта",
+      "cluster_id": "C31",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 278,
+      "title": "Ежемесячный энергоотчёт клиенту",
+      "cluster_id": "C31",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 279,
+      "title": "Отчёт энергоаудита",
+      "cluster_id": "C31",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 280,
+      "title": "Энергосберегающие мероприятия с окупаемостью",
+      "cluster_id": "C31",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 281,
+      "title": "Подбор установок компенсации",
+      "cluster_id": "C31",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 282,
+      "title": "Управление пиками мощности",
+      "cluster_id": "C33",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 283,
+      "title": "Измерение экономии в энергосервисе",
+      "cluster_id": "C33",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 284,
+      "title": "Управление накопителями",
+      "cluster_id": "C29",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 285,
+      "title": "Энергоменеджмент по ISO 50001",
+      "cluster_id": "C31",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 286,
+      "title": "ИИ-ассистент по нормативке",
+      "cluster_id": "C58",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 287,
+      "title": "ИИ-поиск по архиву",
+      "cluster_id": "C58",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 288,
+      "title": "Протоколы совещаний → задачи",
+      "cluster_id": "C70",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 289,
+      "title": "Контроль поручений",
+      "cluster_id": "C70",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 290,
+      "title": "Дашборд руководителя",
+      "cluster_id": "C70",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 291,
+      "title": "Разбор входящей корреспонденции",
+      "cluster_id": "C60",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 292,
+      "title": "Еженедельные отчёты подразделений",
+      "cluster_id": "C70",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 293,
+      "title": "Интеграционный слой",
+      "cluster_id": "C71",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 294,
+      "title": "Единые справочники",
+      "cluster_id": "C63",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 295,
+      "title": "Локальный ИИ-контур",
+      "cluster_id": "C63",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 296,
+      "title": "Права и журнал ИИ-агентов",
+      "cluster_id": "C63",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 297,
+      "title": "Инвентаризация АСУ ТП",
+      "cluster_id": "C61",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 298,
+      "title": "Аномалии в сети АСУ ТП",
+      "cluster_id": "C62",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 299,
+      "title": "Карта процессов из интервью",
+      "cluster_id": "C71",
+      "assignment": "manual_legacy_semantic_pass"
+    },
+    {
+      "source": "v1",
+      "source_id": 300,
+      "title": "Экспресс-аудит готовности к автоматизации",
+      "cluster_id": "C71",
+      "assignment": "manual_legacy_semantic_pass"
+    }
+  ]
+}
