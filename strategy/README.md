@@ -33,3 +33,7 @@ Use `energokontur-ai` as the canonical repository for energy product/business re
 - [Expanded 56-provider desk research, evidence grading and offer implications](energy-opportunity-scan/BELARUS_COMPETITOR_DEEP_DIVE_56_2026-09-29.md)
 - [Canonical 56-profile machine-readable register](energy-opportunity-scan/COMPETITORS_BY_56_2026-09-29.json)
 - First wave of 33 remains only as provenance. A directory's 61 tagged profiles and 1C's 10 ERP centres cannot be added naively to our 56.
+
+## Outreach Radar (2026-09-29)
+- [Daily personalized email drafting agent](outreach-radar/DAILY_EMAIL_AGENT_SPEC.md)
+- v1 researches and drafts up to 10 review-ready accounts/day; no autonomous mass sending. Each email must cite a real company signal internally, state pain as hypothesis, avoid generic AI pitch, and ask for a 15–20 min diagnostic conversation.
